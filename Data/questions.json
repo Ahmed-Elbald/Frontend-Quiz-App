@@ -1,0 +1,2227 @@
+[
+  {
+    "question": "What is HTML?",
+    "choices": [
+      "HTML describes the structure of a webpage",
+      "HTML is the standard markup language mainly used to create web pages",
+      "HTML consists of a set of elements that helps the browser how to view the content",
+      "All of the mentioned"
+    ],
+    "answer": "d",
+    "explanation": "HTML is the standard markup language mainly used to create web pages. HTML describes the structureand layout of a webpage. HTML consists of a series of elements that helps the browser how to display contenteasily."
+  },
+  {
+    "question": "Who is the father of HTML?",
+    "choices": [
+      "Rasmus Lerdorf",
+      "Tim Berners-Lee",
+      "Brendan Eich",
+      "Sergey Brin"
+    ],
+    "answer": "b",
+    "explanation": "Timothy John Berners-Lee (TimBL) is known as the father of HTML. He is a British computer scientist,best known as the inventor of the World Wide Web."
+  },
+  {
+    "question": "HTML stands for __________",
+    "choices": [
+      "HyperText Markup Language",
+      "HyperText Machine Language",
+      "HyperText Marking Language",
+      "HighText Marking Language"
+    ],
+    "answer": "a",
+    "explanation": "HTML stands for “HyperText Markup Language”. HTML is the standard markup language mainly used todesign and create web pages and web applications. "
+  },
+  {
+    "question": "What is the correct syntax of doctype in HTML5?",
+    "choices": [
+      "</doctype html>",
+      "<doctype html>",
+      "<doctype html!>",
+      "<!doctype html>"
+    ],
+    "answer": "d",
+    "explanation": "The correct syntax of HTML5 doctype is <!doctype html>, doctype is the very first thing towrite in HTML5. <!doctype html> or <!DOCTYPE HTML> both are same because ‘doctype’ keyword is not casesensitive."
+  },
+  {
+    "question": "Which of the following is used to read an HTML page and render it?",
+    "choices": [
+      "Web server",
+      "Web network",
+      "Web browser",
+      "Web matrix"
+    ],
+    "answer": "c",
+    "explanation": "A web browser (commonly referred to as a browser) is a software application for retrieving,presenting and traversing information resources on the World Wide Web. A web server process, store and displayoutput to the client as per their request. Web matrix is a discontinued cloud-connected website builder and HTMLeditor for Windows. "
+  },
+  {
+    "question": "Which of the following is not a difference between HTML and XHTML?",
+    "choices": [
+      "Charset in both html and xhtml is “text/html”",
+      "Tags and attributes are case-insensitive in HTML but not in XHTML",
+      "Special characters must be escaped using character entities in XHTML unlike HTML",
+      "Charset in html is “text/html” where as in xhtml it is “application/xml+xhtml”"
+    ],
+    "answer": "a",
+    "explanation": "HTML is case insensitive while XHTML is case sensitive. In XHTML, special characters can be escapedusing character entites but not in HTML. Charset in HTML is “text/html” where as it is “application/xml+xhtml” forXHTML."
+  },
+  {
+    "question": "Which of the following tag is used for inserting the largest heading in HTML?",
+    "choices": [
+      "head",
+      "<h1>",
+      "<h6>",
+      "heading"
+    ],
+    "answer": "b",
+    "explanation": "Headings in HTML starts from <h1> to <h6> in which <h1> heading is the largest oneand <h6> is smallest one among those. The heading tags are <h1> <h2> <h3> <h4><h5> and <h6> that are used for the creations of headings."
+  },
+  {
+    "question": "What is DOM in HTML?",
+    "choices": [
+      "Language dependent application programming",
+      "Hierarchy of objects in ASP.NET",
+      "Application programming interface",
+      "Convention for representing and interacting with objects in html documents"
+    ],
+    "answer": "d",
+    "explanation": "The Document Object Model is a cross-platform and language-independent application programminginterface that treats an HTML, XHTML, or XML document as a tree structure. A document can be viewed as a logicaltree with help of DOM Model."
+  },
+  {
+    "question": "In which part of the HTML metadata is contained?",
+    "choices": [
+      "head tag",
+      "title tag",
+      "html tag",
+      "body tag"
+    ],
+    "answer": "a",
+    "explanation": "Metadata is information about data. The meta tag provides metadata/meta information about the HTMLdocument. Metadata will not be displayed on the page. Metadata is present in head. The body tag defines document’sbody. A title tag is an HTML element which specifies the title of a web page. "
+  },
+  {
+    "question": "Which element is used to get highlighted text in HTML5?",
+    "choices": [
+      "<u>",
+      "<mark>",
+      "<highlight>",
+      "<b>"
+    ],
+    "answer": "b",
+    "explanation": "The <mark> element is used to highlight a section of text. It is useful for quoting a text orif one wants to bring attention to the text. The <b> tag is used to make text/paragraph bold. <u> tagis used to underline the text you wanted.<p>This is the example.<mark> I like this dog. </mark></p>Output: This is the example. I like this dog. "
+  },
+  {
+    "question": "Which of the following is not a HTML5 tag?",
+    "choices": [
+      "<track>",
+      "<video>",
+      "<slider>",
+      "<source>"
+    ],
+    "answer": "b",
+    "explanation": "<video> tag is used to display video clips in HTML5. Multiple media resources for mediaelements is specified by <source> tag. Text track for media elements i.e. <audio> & <video>is provided by <track> tag in HTML5. There is no such thing as slider tag in HTML5."
+  },
+  {
+    "question": "How do we write comments in HTML?",
+    "choices": [
+      "</…….>",
+      "<!……>",
+      "</……/>",
+      "<…….!>"
+    ],
+    "answer": "b",
+    "explanation": "Browser ignores comment in a code. There are always two types of command i.e. single line command andmultiple line command. If one wants to add a comment in code, add the text between these characters<!…..comment….>. It will not visible in the user’s browser."
+  },
+  {
+    "question": "Which of the following elements in HTML5 defines video or movie content?",
+    "choices": [
+      "<video>",
+      "<movie>",
+      "<audio>",
+      "<media>"
+    ],
+    "answer": "a",
+    "explanation": "The media to which linked document is optimized is given by <media> tag. Before HTML5, videoscould only be played with a plug-in (like flash). The HTML5 video element specifies a standard way to embed avideo in a webpage. As like <video> elements, <audio> element contains additional files or streamslike music, recording, etc."
+  },
+  {
+    "question": "Which of the following is not the element associated with the HTML table layout?",
+    "choices": [
+      "alignment",
+      "color",
+      "size",
+      "spanning"
+    ],
+    "answer": "b",
+    "explanation": "There are three elements in HTML table layout i.e. size, spanning and alignment. Layout type can beachieved by setting Rows elements layout attribute to Fixed or Auto. Auto attribute relies on browsercompatibility whereas fixed layout relies on developer specification."
+  },
+  {
+    "question": "Which element is used for or styling HTML5 layout?",
+    "choices": [
+      "CSS",
+      "jQuery",
+      "JavaScript",
+      "PHP"
+    ],
+    "answer": "a",
+    "explanation": "For styling HTML5, CSS i.e Cascading Style Sheet is used. It is style sheet language and designed todescribe presentation of its content including layouts, colors and fonts. CSS can control the layout of multiplewebpages. "
+  },
+  {
+    "question": "Which HTML tag is used for making character appearance bold?",
+    "choices": [
+      "<u>content</u>",
+      "<b>content</b>",
+      "<br>content</br>",
+      "<i>content</i>"
+    ],
+    "answer": "b",
+    "explanation": "By enclosing words in the tags <b>and</b> we can make characters appear bold. <i>element is for content in italics, <u> is for underlined content, <br> is for vertical breaking."
+  },
+  {
+    "question": "Which HTML tag is used to insert an image?",
+    "choices": [
+      "<img url=”htmllogo.jpg” />",
+      "<img alt=”htmllogo.jpg” />",
+      "<img src=”htmllogo.jpg” />",
+      "<img link=”htmllogo.jpg” />"
+    ],
+    "answer": "c",
+    "explanation": "In HTML, <img> tag is used to insert an image in HTML page. Image tag has two attributes (srcand Alt).–> Src attribute is used to specify the image path.–> Alt attribute is used to specify the alternate text for the image."
+  },
+  {
+    "question": "HTML is a subset of ___________",
+    "choices": [
+      "SGMT",
+      "SGML",
+      "SGME",
+      "XHTML"
+    ],
+    "answer": "b",
+    "explanation": "HTML is a subset of SGML. SGML (Standard Generalized Markup Language) is a standard for specifying adocument markup language or tag set."
+  },
+  {
+    "question": "Which character is used to represent when a tag is closed in HTML?",
+    "choices": [
+      "#",
+      "!",
+      "/",
+      "\\"
+    ],
+    "answer": "c",
+    "explanation": "The forward-slash (/) is used to indicate the closure of a tag within HTML."
+  },
+  {
+    "question": "Among the following, which is the HTML paragraph tag?",
+    "choices": [
+      "<p>",
+      "<pre>",
+      "<hr>",
+      "<a>"
+    ],
+    "answer": "a",
+    "explanation": "<p> tag is used for paragraph in HTML."
+  },
+  {
+    "question": "In HTML, which attribute is used to create a link that opens in a new window tab?",
+    "choices": [
+      "src=”_blank”",
+      "alt=”_blank”",
+      "target=”_self”",
+      "target=”_blank”"
+    ],
+    "answer": "d",
+    "explanation": "Add the target=”_blank” attribute in the Anchor tag. target=”_blank” attribute makes a link open in anew window tab."
+  },
+  {
+    "question": "Which HTML element is used for short quote?",
+    "choices": [
+      "<em>",
+      "<abbr>",
+      "<q>",
+      "<blockquote>"
+    ],
+    "answer": "c",
+    "explanation": "<em> element indicates emphasis, browser will show the contents of <em> element initalic. A section which is quoted from another source is specified by <blockquote>. The <abbr> definesabbreviation. We used <q> element for shorter quote. Browser put quote around <q> element.<p>This is a <q>black dog</q>.</p>Output: This is a “black dog”."
+  },
+  {
+    "question": "Which of the following HTML tag is used to create an unordered list?",
+    "choices": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<ll>"
+    ],
+    "answer": "b",
+    "explanation": "<ul> tag is used to create the unordered list items in an HTML document. By default, unorderedlist items will display in a bulleted format.Different types of unordered list Attribute Values are:DiscCircleSquareNoneSyntax: <ul> Unordered List Items </ul> "
+  },
+  {
+    "question": "Which HTML element is used for abbreviation or acronym?",
+    "choices": [
+      "<abbr>",
+      "<blockquote>",
+      "<q>",
+      "<em>"
+    ],
+    "answer": "a",
+    "explanation": "<em> element indicates emphasis, browser will show the contents of <em> element initalic. We used <q> element for shorter quote. Browser put quote around <q> element. A section whichis quoted from another source is specified by <blockquote>. For using, abbreviation or acronym <abbr>element is helpful. A title element is to be used with abbr.<p>The <abbr title=”Doctor”>Dr.</abbr> is on the way.</p>Output: The Dr. is on the way. "
+  },
+  {
+    "question": "Which of the following HTML tag is used to add a row in a table?",
+    "choices": [
+      "<th>",
+      "<td>",
+      "<tr>",
+      "<tt>"
+    ],
+    "answer": "c",
+    "explanation": "In HTML, <tr> tag is used to create a row in the table. <th> tag is used to set theheader cell of a table. "
+  },
+  {
+    "question": "What is the work of <address> element in HTML5?",
+    "choices": [
+      "contains IP address",
+      "contains home address",
+      "contains url",
+      "contains contact details for author"
+    ],
+    "answer": "d",
+    "explanation": "The contact details for author of a page is specified by <address> attribute. The content isoften displayed in italics,e.g. <address><a href=\"mailto:enquiry@sanfoundry.com\">Sanfoundry</a></address>Output: Sanfoundry "
+  },
+  {
+    "question": "Which of the following tag is used to create a text area in HTML Form?",
+    "choices": [
+      "<textarea> </textarea>",
+      "<text></text>",
+      "<input type=”text” />",
+      "<input type=”textarea” />"
+    ],
+    "answer": "a",
+    "explanation": "The text area tag (<textarea>) is used in a form to declare a text area element. It allows theuser to enter text in multiple rows. "
+  },
+  {
+    "question": "To show deleted text, which HTML element is used?",
+    "choices": [
+      "<del>",
+      "<em>",
+      "<strong>",
+      "<ins>"
+    ],
+    "answer": "a",
+    "explanation": "<strong> element shows the importance of text/paragraph between it’s tags. <em> element indicates emphasis, browser will show the contents of <em> element in italic. <ins> element shows the content that has been inserted, usually it has underline. <del> element shows text that has been deletedfrom, usually it has a line through the content.<p>This is <del>not</del> for deletion </p>Output: This is not for deletion."
+  },
+  {
+    "question": "What is the correct syntax of web address?",
+    "choices": [
+      "port://domain.filenmae:path/scheme/prefix",
+      "prefix://scheme.port:domain/filename/path",
+      "path://prefix.port:domain/filename/scheme",
+      "scheme://prefix.domain:port/path/filename"
+    ],
+    "answer": "d",
+    "explanation": "The correct syntax for a web address is scheme://prefix.domain:port/path/filename, where scheme isfor https or http, prefix is for domain like www, domain denotes domain name, port defines port number, pathdefines path at server, filename is for name of the document. "
+  },
+  {
+    "question": "Which tag is used to create a dropdown in HTML Form?",
+    "choices": [
+      "<input>",
+      "<select>",
+      "<text>",
+      "<textarea>"
+    ],
+    "answer": "b",
+    "explanation": "<select> element is used to create a drop-down list in HTML Forms. It is mainly used to collectuser input. Option tags are used within the <select> element to define available options from the drop-downlist."
+  },
+  {
+    "question": "Which tag is used to create a numbered list in HTML?",
+    "choices": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<ll>"
+    ],
+    "answer": "a",
+    "explanation": "<ol> tag is used to create the numbered list or ordered list items in an HTML document. Anordered list can be numerical or alphabetical order. <li> tag is used to define each list item.Syntax: <ol> Ordered List Items </ol> "
+  },
+  {
+    "question": "How to create a checkbox in HTML Form?",
+    "choices": [
+      "<input type=”text”>",
+      "<input type=”textarea”>",
+      "<input type=”checkbox”>",
+      "<input type=”button”>"
+    ],
+    "answer": "c",
+    "explanation": "<input type=”checkbox”> is used to create a checkbox in HTML Form. Checkboxes allow a user toselect one or more options of a limited number of choices."
+  },
+  {
+    "question": "Which of the following extension is used to save an HTML file?",
+    "choices": [
+      ".hl",
+      ".h",
+      ".htl",
+      ".html"
+    ],
+    "answer": "d",
+    "explanation": ".html or .htm extensions are used to save the HTML file."
+  },
+  {
+    "question": "Which tag is used to create a blank line in HTML?",
+    "choices": [
+      "<b>",
+      "<br>",
+      "<em>",
+      "<a>"
+    ],
+    "answer": "b",
+    "explanation": "In HTML, <br> tag is used to create a blank line. <b> tag is used to specify the boldtext. <em> tag is used to define the emphasized text."
+  },
+  {
+    "question": "Which HTML tag is used to convert the plain text into italic format?",
+    "choices": [
+      "<b>",
+      "<p>",
+      "<i>",
+      "<a>"
+    ],
+    "answer": "c",
+    "explanation": "In HTML, <i> tag is used to convert the plain text into italic format. "
+  },
+  {
+    "question": "What is the use of <hr/> tag in HTML?",
+    "choices": [
+      "For making content appearance italics",
+      "To create vertical rule between sections",
+      "To create a line break",
+      "To create horizontal rule between sections"
+    ],
+    "answer": "d",
+    "explanation": "To create a break between themes-such as a change of topic in a book or a new scene in a play-you canadd a horizontal rule between sections using <hr/> tag"
+  },
+  {
+    "question": "Which attribute is not essential under <iframe>?",
+    "choices": [
+      "frameborder",
+      "width",
+      "height",
+      "src"
+    ],
+    "answer": "a",
+    "explanation": "An iframe is equivalent to a window that has been cut into our page, it is created using<iframe> element. Src, height, width attribute are essentially used inside of this. Src attribute specifiesthe URL of the page which is to be shown. Height and width specify the height and width of an iframe in pixels."
+  },
+  {
+    "question": "Which works similar to <b> element?",
+    "choices": [
+      "<blockquote>",
+      "<strong>",
+      "<em>",
+      "<i>"
+    ],
+    "answer": "b",
+    "explanation": "The words are written inside <strong> can be said with strong emphasis. Browser shows contentswritten inside <strong> element in bold.Example:<p>1000 <strong>HTML</strong> MCQs.</p>Output: 1000 HTML MCQs."
+  },
+  {
+    "question": "Which tag is used to underline the text in HTML?",
+    "choices": [
+      "<p>",
+      "<u>",
+      "<i>",
+      "<ul>"
+    ],
+    "answer": "b",
+    "explanation": "In HTML, underline tag (<u>) is used to display the underlined text.Example: HTML stands for <u>HyperText Markup Language</u>."
+  },
+  {
+    "question": "Which attribute specifies a unique alphanumeric identifier to be associated with an element?",
+    "choices": [
+      "type",
+      "article",
+      "id",
+      "class"
+    ],
+    "answer": "c",
+    "explanation": "HTML is Hyper Text Markup Language that is used to create web pages and applications. The idattribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulatethe element with the specific id. Class is a name given to HTML elements that can be used by CSS and JavaScriptfor styling web pages. A self-contained content is called an attribute."
+  },
+  {
+    "question": "Which of the following is an HTML specification used to add more information to HTML tags?",
+    "choices": [
+      "Modifydata",
+      "Minidata",
+      "Macrodata",
+      "Microdata"
+    ],
+    "answer": "d",
+    "explanation": "The Microdata spec provides a standardized syntax for additional semantic markup to your web pages toenhance the machine readability of your web pages. The planning for distribution center operation is offered byminidata. Macrodata and Modifydata are not any terms related to HTML5."
+  },
+  {
+    "question": "Which HTML element is used for YouTube videos?",
+    "choices": [
+      "<samp>",
+      "<small>",
+      "<frame>",
+      "<iframe>"
+    ],
+    "answer": "d",
+    "explanation": "We can host our videos through YouTube and can easily embed them into our website. <iframe> tagwill be used for YouTube videos.E.g. <iframe width=”670” height=”612” src= “https://sanfoundry.com”> </iframe> "
+  },
+  {
+    "question": "Which of the following HTML element is used for canvas graphics?",
+    "choices": [
+      "<css>",
+      "<paint>",
+      "<canvas>",
+      "<graphic>"
+    ],
+    "answer": "c",
+    "explanation": "CSS i.e. Cascading Style Sheet is a scripting language. Canvas graphics are introduced in HTML5.Element used for canvas graphics is <canvas>. The HTML canvas element is used to draw graphics, on the fly,via scripting (usually JavaScript)."
+  },
+  {
+    "question": "What is CSS?",
+    "code": null,
+    "choices": [
+      "CSS is a style sheet language",
+      "CSS is designed to separate the presentation and content, including layout, colors, and fonts",
+      "CSS is the language used to style the HTML documents",
+      "All of the mentioned"
+    ],
+    "answer": "d",
+    "explanation": "CSS is a style sheet language that stands for Cascading Style Sheet and is used to style HTMLdocuments. CSS is mainly designed to separate the presentation and content, including layout, colors, and fonts."
+  },
+  {
+    "question": "Which of the following tag is used to embed css in html page?",
+    "code": null,
+    "choices": [
+      "<css>",
+      "<!DOCTYPE html>",
+      "<script>",
+      "<style>"
+    ],
+    "answer": "d",
+    "explanation": "<style> </style> tag is used to embed CSS in HTML page, while <script></script> is used to embed JS in HTML. <!DOCTYPE html> is HTML5 declaration. "
+  },
+  {
+    "question": "Which of the following CSS selectors are used to specify a group of elements?",
+    "code": null,
+    "choices": [
+      "tag",
+      "id",
+      "class",
+      "both class and tag"
+    ],
+    "answer": "c",
+    "explanation": "Class selectors are used to specify a group of elements. Id selector specifies a particular uniqueelement."
+  },
+  {
+    "question": "Which of the following has introduced text, list, box, margin, border, color, and background properties?",
+    "code": null,
+    "choices": [
+      "HTML",
+      "PHP",
+      "CSS",
+      "Ajax"
+    ],
+    "answer": "c",
+    "explanation": "CSS is a style sheet language that stands for Cascading Style Sheet. CSS has introduced text, list,box, margin, border, color, and background properties."
+  },
+  {
+    "question": "Which of the following CSS framework is used to create a responsive design?",
+    "code": null,
+    "choices": [
+      "django",
+      "rails",
+      "larawell",
+      "bootstrap"
+    ],
+    "answer": "d",
+    "explanation": "Bootstrap is a free and open-source collection of tools for creating websites and web applications.It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interfacecomponents, as well as optional JavaScript extensions. It aims to ease the development of dynamic websites and webapplications."
+  },
+  {
+    "question": "Which of the following CSS selector is used to specify a rule to bind a particular unique element?",
+    "code": null,
+    "choices": [
+      "tag",
+      "id",
+      "class",
+      "both class and tag"
+    ],
+    "answer": "b",
+    "explanation": "For binding a particular unique element, id selectors are used. While for a group of elements, classselector can be used."
+  },
+  {
+    "question": "Which of the following type of HTML tag is used to define an internal style sheet?",
+    "code": null,
+    "choices": [
+      "<script>",
+      "<link>",
+      "<class>",
+      "<style>"
+    ],
+    "answer": "d",
+    "explanation": "<style> tag is used to define an internal style sheet in HTML document."
+  },
+  {
+    "question": "Which of the following CSS property is used to make the text bold?",
+    "code": null,
+    "choices": [
+      "text-decoration: bold",
+      "font-weight: bold",
+      "font-style: bold",
+      "text-align: bold"
+    ],
+    "answer": "b",
+    "explanation": "The font-weight property is used for setting the thickness and boldness of the font. It is used todefine the weight of the text. The available weight depends on the font-family, which is used by the browser."
+  },
+  {
+    "question": "What will be the output of following CSS code snippet?",
+    "code": "h1 {color: \"green\";}",
+    "choices": [
+      "nothings happen",
+      "error occurs",
+      "heading becomes dark-green",
+      "heading becomes green"
+    ],
+    "answer": "a",
+    "explanation": "Output of the above code snippet won’t happen as the declaration syntax is wrong. The correctdeclaration is : h1 { color: green; } which will yield an output. In CSS, we don’t write the value in doublequotes."
+  },
+  {
+    "question": "Which of the following CSS style property is used to specify an italic text?",
+    "code": null,
+    "choices": [
+      "style",
+      "font",
+      "font-style",
+      "@font-face"
+    ],
+    "answer": "c",
+    "explanation": "font-style property is used to specify an italic text. font-style property has three values (normal,italic & oblique)."
+  },
+  {
+    "question": "What will be the output of following CSS code snippet?",
+    "code": "h1 {color: red text-decoration: underline; font-style: italic;}",
+    "choices": [
+      "color: red, text-decoration: underline works",
+      "only font-style: italic works",
+      "color: red, text-decoration: underline and font-style: italic all works",
+      "text-decoration: underline and font-style: italic worksView  Answer"
+    ],
+    "answer": "b",
+    "explanation": "In this case, we should see the browser continue to parse the value of color as “red text-decoration:underline” before it sees a closing semicolon. The font-style property that follows would then be used. Becausethe color property has an illegal value, it should be ignored."
+  },
+  {
+    "question": "Which of the following are the CSS Extension Prefixes for Webkit?",
+    "code": null,
+    "choices": [
+      "-chrome",
+      "-web",
+      "-o-",
+      "-webkit"
+    ],
+    "answer": "d",
+    "explanation": "Browser sometimes adds prefixes to non-standard CSS properties. CSS Extension prefix for Webkit is-webkit which is supported by almost all ios browsers. -o is used by opera where as -moz is used by firefoxbrowser. "
+  },
+  {
+    "question": "Which of the following is the correct syntax to link an external style sheet in the HTML file?",
+    "code": null,
+    "choices": [
+      "<link rel=”stylesheet” href=”style.css” />",
+      "<link rel=”stylesheet” src=”style.css” />",
+      "<style rel=”stylesheet” src=”style.css” />",
+      "<style rel=”stylesheet” link=”style.css” />"
+    ],
+    "answer": "a",
+    "explanation": "HTML file must contain a reference to the external style sheet file. External style sheet files aredefined within the <link> element and it should be inside the <head> section. href attribute specifiesthe URL of the linked resource."
+  },
+  {
+    "question": "Which of the following is the first CSS specification to become an official W3C Recommendation?",
+    "code": null,
+    "choices": [
+      "CSS level 2",
+      "(X)HTML CSS",
+      "CSS level 1",
+      "CSS level 2.1"
+    ],
+    "answer": "c",
+    "explanation": "The first CSS specification to become an official W3C Recommendation is CSS level 1, published onDecember 17, 1996. Håkon Wium Lie and Bert Bos are credited as the original developers."
+  },
+  {
+    "question": "Which of the following function defines a linear gradient as a CSS image?",
+    "code": null,
+    "choices": [
+      "gradient()",
+      "linear-gradient()",
+      "grayscale()",
+      "image()"
+    ],
+    "answer": "b",
+    "explanation": "linear-gradient() function defines a linear gradient as a CSS image. Creating a linear gradientfunction we should define minimum of two color stops. color stops will tell the browser which colors to use in thegradients for smooth transitions."
+  },
+  {
+    "question": "Which of the following CSS property can be used to set the image as a border instead of the border style?",
+    "code": null,
+    "choices": [
+      "background-image-source",
+      "background-image",
+      "border-image-source",
+      "border-image"
+    ],
+    "answer": "c",
+    "explanation": "The border-image-source property specifies the path to the image to be used as a border (instead ofthe normal border around an element)."
+  },
+  {
+    "question": "Which of the following CSS property defines the different properties of all four sides of an element’s borderin a single declaration?",
+    "code": null,
+    "choices": [
+      "border-collapse",
+      "border-width",
+      "padding",
+      "border"
+    ],
+    "answer": "b",
+    "explanation": "The border-width property sets the width of an element’s four borders. This property can have fromone to four values."
+  },
+  {
+    "question": "Which of the following is the correct way to apply CSS Styles?",
+    "code": null,
+    "choices": [
+      "in an external CSS file",
+      "inside an HTML element",
+      "inside the <head> section of an HTML page",
+      "all of the mentioned"
+    ],
+    "answer": "d",
+    "explanation": "We can style the document using CSS in three different ways i.e embed, inline and external. An inlineCSS means applying styles rules directly to the HTML element. In embed, we declare or write all the needed stylein <style></style> tag in the head section of the HTML document. We can create an external style sheetand provide its link to the document."
+  },
+  {
+    "question": "Which of the following is not the property of the CSS box model?",
+    "code": null,
+    "choices": [
+      "margin",
+      "color",
+      "width",
+      "height"
+    ],
+    "answer": "b",
+    "explanation": "SS box model include height, width, padding, margin and border. All text-fields have completesupport for every property related to CSS box model. Browser relies on system default styles when displaying thesewidgets. "
+  },
+  {
+    "question": "Which of the following CSS property sets what kind of line decorations are added to an element, such asunderlines, overlines, etc?",
+    "code": null,
+    "choices": [
+      "text-decoration",
+      "text-style",
+      "text-decoration-line",
+      "text-line"
+    ],
+    "answer": "c",
+    "explanation": "The text-decoration-line property defines the type of line decorations that are added to an element,such as underlines, overlines, etc."
+  },
+  {
+    "question": "Which of the following CSS property specifies the look and design of an outline?",
+    "code": null,
+    "choices": [
+      "outline-style",
+      "outline-format",
+      "outline-font",
+      "none of the mentioned"
+    ],
+    "answer": "a",
+    "explanation": "The outline-style CSS property is used to set the style of the outline of an element. An outline is aline that is drawn around elements, outside the border edge, to make the element stand out."
+  },
+  {
+    "question": "What will be the output of the following CSS code snippet?",
+    "code": "span {\nborder: 1px solid red;outline: green dotted thick;\n}",
+    "choices": [
+      "All span elements will have a green thick border and a red outline",
+      "All span elements will have a red border and a green dotted outline",
+      "All span elements will have a outer green dotted border and an inner red border",
+      "All span elements will have an outer red border and inner green dotted border"
+    ],
+    "answer": "c",
+    "explanation": "The border property creates the inner border, while the outline sets the outer border."
+  },
+  {
+    "question": "Which of the following CSS property sets the shadow for a box element?",
+    "code": null,
+    "choices": [
+      "set-shadow",
+      "box-shadow",
+      "shadow",
+      "canvas-shadow"
+    ],
+    "answer": "b",
+    "explanation": "box-shadow property sets the shadow for a box element."
+  },
+  {
+    "question": "Which of the following CSS property is used to set the color of the text?",
+    "code": null,
+    "choices": [
+      "text-decoration",
+      "pallet",
+      "colour",
+      "color"
+    ],
+    "answer": "d",
+    "explanation": "The color property is used to set the color of the text. In CSS, colors can also be specified usingRGB values, RGBA values, HSL values, HEX values, etc."
+  },
+  {
+    "question": "Which of the following CSS Property controls how an element is positioned?",
+    "code": null,
+    "choices": [
+      "static",
+      "position",
+      "fix",
+      "set"
+    ],
+    "answer": "b",
+    "explanation": "Position property controls how an element is positioned. When set to absolute or fixed, the elementis removed completely from the normal flow of the document. When set to relative, the element is moved relative toits position in the normal flow, but a space is left where it would normally have been. The default value, static,means the element remains in the normal flow and is not positioned."
+  },
+  {
+    "question": "Which of the following CSS selector selects the elements that are checked?",
+    "code": null,
+    "choices": [
+      ":checked",
+      "E ~ F",
+      "::after",
+      "none of the mentioned"
+    ],
+    "answer": "a",
+    "explanation": ":checked selector selects the elements that are checked."
+  },
+  {
+    "question": "Which of the following CSS property is used to specify table borders in CSS?",
+    "code": null,
+    "choices": [
+      "table:border",
+      "table",
+      "border",
+      "none of the mentioned"
+    ],
+    "answer": "c",
+    "explanation": "In CSS, border property is used to specify table borders."
+  },
+  {
+    "question": "Which of the following property is used to align the text in a table?",
+    "code": null,
+    "choices": [
+      "text-align",
+      "align",
+      "text",
+      "none of the mentioned"
+    ],
+    "answer": "a",
+    "explanation": "In CSS, text-align property is used to align the text in a table."
+  },
+  {
+    "question": "Which of the following CSS Property sets the stacking order of positioned elements?",
+    "code": null,
+    "choices": [
+      "y-index",
+      "z-index",
+      "x-index",
+      "all of the mentioned"
+    ],
+    "answer": "b",
+    "explanation": "z-index property sets the stacking order of positioned elements."
+  },
+  {
+    "question": "What will be the output of the following CSS code?",
+    "code": "div {\n  border-width:5px;\t\n  border-style:dotted solid double dashed;\n}",
+    "choices": [
+      "Box having dotted bottom outline, solid right outline, double top outline and dashed left outline",
+      "Box having dotted bottom outline, solid left outline, double top outline and dashed left outline",
+      "Box having dotted top outline, solid right outline, double bottom outline and dashed left outline",
+      "Box having dotted top outline, solid left outline, double bottom outline and dashed right outline"
+    ],
+    "answer": "c",
+    "explanation": "The shorthand run in clockwise direction."
+  },
+  {
+    "question": "Which of the following property allows a marquee to be used in the case of a text-overflow?",
+    "code": null,
+    "choices": [
+      "overflow-marquee",
+      "overflow-style",
+      "overflow-text",
+      "none of the mentioned"
+    ],
+    "answer": "b",
+    "explanation": "overflow-style is a CSS property that allows a marquee to be used in the case of a text-overflow."
+  },
+  {
+    "question": "Which of the following CSS property defines the space between cells in a table?",
+    "code": null,
+    "choices": [
+      "border-spacing",
+      "border-style",
+      "border",
+      "none of the mentioned"
+    ],
+    "answer": "a",
+    "explanation": "border-spacing property defines the space between cells in a table."
+  },
+  {
+    "question": "Which of the following CSS3 property can be used to allow line breaks within words?",
+    "code": null,
+    "choices": [
+      "line-break",
+      "line-wrap",
+      "word-wrap",
+      "word-break"
+    ],
+    "answer": "d",
+    "explanation": "word-break property can be used to allow line breaks within the words."
+  },
+  {
+    "question": "What is JavaScript?",
+    "code": null,
+    "choices": [
+      "JavaScript is a scripting language used to make the website interactive",
+      "JavaScript is an assembly language used to make the website interactive",
+      "JavaScript is a compiled language used to make the website interactive",
+      "None of the mentionedView Answer"
+    ],
+    "answer": "a",
+    "explanation": "JavaScript is a scripting language used along with HTML and CSS to make the website interactivealong. It is used both on the client-side and server-side."
+  },
+  {
+    "question": "Which of the following is correct about JavaScript?",
+    "code": null,
+    "choices": [
+      "JavaScript is an Object-Based language",
+      "JavaScript is Assembly-language",
+      "JavaScript is an Object-Oriented language",
+      "JavaScript is a High-level languageView Answer"
+    ],
+    "answer": "a",
+    "explanation": "Although JavaScript is not an OOP (Object-Oriented Programming) language like Java or PHP, it is anobject-oriented language. The standard threesome of polymorphism, encapsulation, and inheritance are the criteriafor object orientation, and JavaScript fails to meet them."
+  },
+  {
+    "question": "Among the given statements, which statement defines closures in JavaScript?",
+    "code": null,
+    "choices": [
+      "JavaScript is a function that is enclosed with references to its inner function scope",
+      "JavaScript is a function that is enclosed with references to its lexical environment",
+      "JavaScript is a function that is enclosed with the object to its inner function scope",
+      "None of the mentionedView Answer"
+    ],
+    "answer": "b",
+    "explanation": "A closure is a function that is enclosed with references to its lexical environment. A closure allowsan inner function to access the scope of an outside function. Closures are formed every time a function is createdin JavaScript, during function creation time."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code snippet?",
+    "code": "<p id=\"demo\"></p>\nvar txt1 = \"Sanfoundry_\";\nvar txt2 = \"Javascriptmcq\";\ndocument.getElementById(\"demo\").innerHTML = txt1 + txt2;",
+    "choices": [
+      "error",
+      "Sanfoundry_ Javascriptmcq",
+      "undefined",
+      "Sanfoundry_JavascriptmcqView Answer"
+    ],
+    "answer": "d",
+    "explanation": "The + operator in javascript acts as a concatenation operator when used with string. The new stringdoes not have any space between the two added strings."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "<p id=\"demo\"></p>\n<script>\nvar js = 10;\njs *= 5;\ndocument.getElementById(\"demo\").innerHTML = js;\n</script>",
+    "choices": [
+      "10",
+      "50",
+      "5",
+      "ErrorView Answer"
+    ],
+    "answer": "b",
+    "explanation": "The *= operator in javascript is a shorthand expression for the multiplication of a particularnumber. It is a combination of two operators * and = ."
+  },
+  {
+    "question": "Arrays in JavaScript are defined by which of the following statements?",
+    "code": null,
+    "choices": [
+      "It is an ordered list of values",
+      "It is an ordered list of objects",
+      "It is an ordered list of string",
+      "It is an ordered list of functionsView Answer"
+    ],
+    "answer": "a",
+    "explanation": "An array in JavaScript is an ordered list of values, each value is referred to as an element, and itis identified by an index. An array can include values of many sorts and the length of an array dynamically sized."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "// JavaScript Comparison Operators\nfunction compare() {\n  int num=2;\n  char b=2;\n  if(a==b)return true;\n  else return false;\n}",
+    "choices": [
+      "false",
+      "true",
+      "compilation error",
+      "runtime errorView Answer"
+    ],
+    "answer": "b",
+    "explanation": "The == in JS convert different types of operands to the same type before making the comparison. Astrict comparison results in true value if the operands are of the same type and the contents match."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code snippet?",
+    "code": "// JavaScript Equalto Operators\nfunction equalto() {\n  int num=10;\n  if(num===\"10\")return true;\n  elsereturn false;\n}",
+    "choices": [
+      "false",
+      "true",
+      "compilation error",
+      "runtime errorView Answer"
+    ],
+    "answer": "a",
+    "explanation": "A === operator in JS is only true if the operands are of the same type and the contents match. Twostrings are strictly equal when they have the same sequence of characters, same length, and same characters incorresponding positions."
+  },
+  {
+    "question": "Will the following JavaScript code work?",
+    "code": "var js = (function(x) {return x*x;}(10));",
+    "choices": [
+      "Exception will be thrown",
+      "Memory leak",
+      "Error",
+      "Yes, perfectlyView Answer"
+    ],
+    "answer": "d",
+    "explanation": "For functions expressed as expressions, the function name is optional in Javascript. Sometimesfunction expressions are defined and used right away."
+  },
+  {
+    "question": "Which of the following is not javascript data types?",
+    "code": null,
+    "choices": [
+      "Null type",
+      "Undefined type",
+      "Number type",
+      "All of the mentionedView Answer"
+    ],
+    "answer": "d",
+    "explanation": "JavaScript is a dynamic, loosely typed language. Variables in JavaScript aren’t tied to any specificvalue type, and each variable can be assigned and reassigned to values of all the types."
+  },
+  {
+    "question": "Where is Client-side JavaScript code is embedded within HTML documents?",
+    "code": null,
+    "choices": [
+      "A URL that uses the special javascript:code",
+      "A URL that uses the special javascript:protocol",
+      "A URL that uses the special javascript:encoding",
+      "A URL that uses the special javascript:stackView Answer"
+    ],
+    "answer": "b",
+    "explanation": "The Client-side JavaScript code is embedded within HTML documents in four ways :  Inline, between a pair of “script” tags   From an external file specified by the src attribute of a “script” tag   In an HTML event handler attribute, such as onclick or onmouseover   In a URL that uses the special javascript: protocol. "
+  },
+  {
+    "question": "What will be the output of the following JavaScript code snippet?",
+    "code": "int a=1;\nif(a!=null) // JavaScript not equal to Operators\n  return 1;\nelse\n  return 0;",
+    "choices": [
+      "0",
+      "1",
+      "compiler error",
+      "runtime errorView Answer"
+    ],
+    "answer": "b",
+    "explanation": "!= is not equal to the operator in Javascript. It gives a value of 1 if the two values which arecompared are not equal and give 0 if the two values are equal."
+  },
+  {
+    "question": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
+    "code": null,
+    "choices": [
+      "Position",
+      "Window",
+      "Standard",
+      "LocationView Answer"
+    ],
+    "answer": "b",
+    "explanation": "All client-side JavaScript features and APIs are accessed through the Window object. It represents aweb browser window or frame, and the identifier window can be used to refer to it."
+  },
+  {
+    "question": "What will be the output of the following JavaScript program?",
+    "code": "function sanfoundry(javascript) {\nreturn (javascript ?  “yes” :  “no”);\n}\nbool ans=true;\nconsole.log(sanfoundry(ans));",
+    "choices": [
+      "Compilation error",
+      "Runtime error",
+      "Yes",
+      "NoView Answer"
+    ],
+    "answer": "c",
+    "explanation": "In javascript, “?” is called the ternary operator which is used for choosing one choice from thegiven two choices. It is used instead of if else statement and makes the code shorter."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "// Javascript code snippet to compare the height\nfunction height() {\t\n  var  height = 123.56;\n  var type = (height>=190) ? \"tall\" : \"short\";\n  return type;\n}",
+    "choices": [
+      "short",
+      "123.56",
+      "tall",
+      "190View Answer"
+    ],
+    "answer": "a",
+    "explanation": "The ternary operator in javascript is used as a comparison operator which works on three operands.The statement in the above code initializes type variable with the value short which is returned through thefunction."
+  },
+  {
+    "question": "Which of the following can be used to call a JavaScript Code Snippet?",
+    "code": null,
+    "choices": [
+      "Function/Method",
+      "Preprocessor",
+      "Triggering Event",
+      "RMIView Answer"
+    ],
+    "answer": "a",
+    "explanation": "A function call to the element on which JavaScript is to be run can be used to invoke JavaScriptcode. Other techniques include onclick, onload, and onsubmit, among others."
+  },
+  {
+    "question": "What will be the output of the following JavaScript function?",
+    "code": "<p id=\"demo\"></p>\n<script>\nfunction javascript()  {\n// javacript abs() method\n  document.getElementById(\"demo\").innerHTML = Math.abs(-7.25);\n}\n</script>",
+    "choices": [
+      "-7.25",
+      "7.25",
+      "-7",
+      "7View Answer"
+    ],
+    "answer": "b",
+    "explanation": "The javacript abs() method returns the absolute value of a number. The method is found in the mathlibrary of Javascript."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var a=5 , b=1\nvar obj = { a : 10 }\n// with keyword in JavaScript\nwith(obj)\n{alert(b)\n}",
+    "choices": [
+      "1",
+      "10",
+      "5",
+      "ErrorView Answer"
+    ],
+    "answer": "a",
+    "explanation": "Firstly the interpreter checks obj for property b. But it doesn’t find any property b so it takes thevalue from outside the object within the JavaScript code snippet. "
+  },
+  {
+    "question": "Which of the following explains correctly what happens when a JavaScript program is developed on a UnixMachine?",
+    "code": null,
+    "choices": [
+      "will work perfectly well on a Windows Machine",
+      "will be displayed as JavaScript text on the browser",
+      "will throw errors and exceptions",
+      "must be restricted to a Unix Machine onlyView Answer"
+    ],
+    "answer": "a",
+    "explanation": "Because JS can run on a variety of operating systems, an application written for UNIX will run justas well on Windows. "
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "function printArray(a)  {\n   var len = a.length, i = 0;\n   if (len == 0) console.log(\"Empty Array\");\n   else \n   {\n// do-while loop in javascript do  {\n     console.log(a[i]); \n}\n while (++i < len);\n   }\n}",
+    "choices": [
+      "Prints “Empty Array”",
+      "Prints 0 to the length of the array",
+      "Prints the numbers in the array in order",
+      "Prints the numbers in the array in the reverse orderView Answer"
+    ],
+    "answer": "c",
+    "explanation": "The do/while statement creates a loop that executes a block of javascript code once, before checkingif the condition is true, then it will repeat the loop as long as the condition is true. Hence the iteratortraverses through the array and print them in normal order."
+  },
+  {
+    "question": "What happens in the following JavaScript code snippet?",
+    "code": "var js = 0;\nwhile (js < 10)  {\n   console.log(js);\n   js++;\n}",
+    "choices": [
+      "An exception is thrown",
+      "The values of js are logged or stored in a particular location or storage",
+      "The value of js from 0 to 9 is displayed in the console",
+      "An error is displayedView Answer"
+    ],
+    "answer": "c",
+    "explanation": "In JavaScript, Console.log is a predefined function that accepts the value as an argument. At thetime of code execution, console.log prints this value in the argument to the console. "
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "function range(int javascript) {\nint a=5;\nfor(int i=0;i<javascript;i++)\n{\n  console.log(a);\n} \n}\nrange(3);",
+    "choices": [
+      "2",
+      "5",
+      "555",
+      "errorView Answer"
+    ],
+    "answer": "c",
+    "explanation": "for loop in Javascript first initializes the variable and later on checks for the conditionexpression and after that execute the line of statements. The value of iterator i increase until it reaches thevalue of length."
+  },
+  {
+    "question": "Which of the following scoping type does JavaScript use?",
+    "code": null,
+    "choices": [
+      "Sequential",
+      "Segmental",
+      "Lexical",
+      "LiteralView Answer"
+    ],
+    "answer": "c",
+    "explanation": "JavaScript, like most current programming languages, employs lexical scoping. This means thatfunctions are performed with the variable scope in effect when they were defined, rather than the variable scopein effect when they are invoked."
+  },
+  {
+    "question": "What is the basic difference between JavaScript and Java?",
+    "code": null,
+    "choices": [
+      "Functions are considered as fields",
+      "Functions are values, and there is no hard distinction between methods and fields",
+      "Variables are specific",
+      "There is no differenceView Answer"
+    ],
+    "answer": "b",
+    "explanation": "Java is an object-oriented programming language, while JS is an object-oriented scripting language.The main difference between JavaScript and Java is that functions are values, while methods and fields are notclearly defined."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var quiz=[1,2,3];  \nvar js=[6,7,8];  \nvar result=quiz.concat(js);  \ndocument.writeln(result);",
+    "choices": [
+      "1, 2, 3, 6, 7, 8",
+      "123",
+      "1, 2, 3",
+      "ErrorView Answer"
+    ],
+    "answer": "a",
+    "explanation": "concat is a predefined function in the array library in Javascript. The concat function is used tocombine the value of two arrays.i.e.1, 2, 3, 6, 7, 8 "
+  },
+  {
+    "question": "Why JavaScript Engine is needed?",
+    "code": null,
+    "choices": [
+      "Both Compiling & Interpreting the JavaScript",
+      "Parsing the javascript",
+      "Interpreting the JavaScript",
+      "Compiling the JavaScriptView Answer"
+    ],
+    "answer": "c",
+    "explanation": "For the most part, the JS Engine is used to interpret JavaScript. It’s used to parse javascript andrun it on a web page."
+  },
+  {
+    "question": "What will be the function of the following JavaScript program?",
+    "code": "var scope = \"js scope\";\nfunction checkscope()  {\n  var scope = \"javascript scope\"; \n  function f() \n  {  return scope; \n  }\n  return f;\n}",
+    "choices": [
+      "Returns the value in scope",
+      "Returns value null",
+      "Shows an error message",
+      "Returns exceptionView Answer"
+    ],
+    "answer": "a",
+    "explanation": "The Lexical Environment is an object that is connected with every executing function, code block, andthe script as a whole in JavaScript. The value in scope is returned by the code snippet above."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "int a=0;\nfor(a;a<5;a++);\nconsole.log(a);",
+    "choices": [
+      "4",
+      "5",
+      "0",
+      "errorView Answer"
+    ],
+    "answer": "b",
+    "explanation": "The value of a will increase until it equals 5, at which point the cursor will exit the loop. Becausethere are no statements in the for loop, the value of a will only increase. As a result, the result will be five."
+  },
+  {
+    "question": "Which of the following methods/operation does javascript use instead of == and !=?",
+    "code": null,
+    "choices": [
+      "JavaScript uses equalto()",
+      "JavaScript uses equals() and notequals() instead",
+      "JavaScript uses bitwise checking",
+      "JavaScript uses === and !== insteadView Answer"
+    ],
+    "answer": "d",
+    "explanation": "The comma operator, bitwise operators, and the ++ and — operators are not included in the subset. Italso forbids the usage of == and!= due to the type conversion they do, instead requiring the use of ===and!==."
+  },
+  {
+    "question": "What will be the result or type of error if p is not defined in the following JavaScript code snippet?",
+    "code": "console.log(p)",
+    "choices": [
+      "Value not found Error",
+      "Reference Error",
+      "Null",
+      "ZeroView Answer"
+    ],
+    "answer": "b",
+    "explanation": "Console.log() is a javascript predefined function for printing data or messages to the console. Areference error will occur if the console.log argument is not defined."
+  },
+  {
+    "question": "What is the prototype represents in the following JavaScript code snippet?",
+    "code": "function javascript() {};",
+    "choices": [
+      "Not valid",
+      "Prototype of a function",
+      "Function javascript",
+      "A custom constructorView Answer"
+    ],
+    "answer": "d",
+    "explanation": "All object instances have a constructor property that points to the constructor function that createdthem. A custom constructor is a constructor which requires no arguments and is created automatically by thecompiler at the time of object creation if not created by the user."
+  },
+  {
+    "question": "Why event handlers is needed in JS?",
+    "code": null,
+    "choices": [
+      "Allows JavaScript code to alter the behaviour of windows",
+      "Adds innerHTML page to the code",
+      "Change the server location",
+      "Performs handling of exceptions and occurrencesView Answer"
+    ],
+    "answer": "a",
+    "explanation": "JS code can change the behavior of windows, documents, and the elements that make up thosedocuments via event handlers."
+  },
+  {
+    "question": "Which of the following is not a framework?",
+    "code": null,
+    "choices": [
+      "JavaScript .NET",
+      "JavaScript",
+      "Cocoa JS",
+      "jQueryView Answer"
+    ],
+    "answer": "b",
+    "explanation": "jQuery, which is used in web development, is one of the most popular frameworks. JavaScript is ascripting language, not a framework, in this case."
+  },
+  {
+    "question": "Which of the following is the property that is triggered in response to JS errors?",
+    "code": null,
+    "choices": [
+      "onclick",
+      "onerror",
+      "onmessage",
+      "onexceptionView Answer"
+    ],
+    "answer": "b",
+    "explanation": "The Window object’s onerror property acts as an event handler, and it is triggeredwhen JavaScript problems occur. However, because it is called with various arguments, it isn’t a genuine eventhandler."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "function compare() {\n  int sanfoundry=1;\n  char javascript=1;\n  if(sanfoundry.tostring()===javascript)return true;\n  else return false;\n}",
+    "choices": [
+      "runtime error",
+      "logical error",
+      "true",
+      "falseView Answer"
+    ],
+    "answer": "c",
+    "explanation": "The .tostring() function can be used to convert a non-string (integer) to a string. Only if theoperands are of the same type and the contents match is a rigorous comparison possible. As a result, the followingcode line will produce true output."
+  },
+  {
+    "question": "What will be the firstname and surname of the following JavaScript program?",
+    "code": "var book = {      \"main title\": \"JavaScript\",\n       'sub-title': \"The Definitive Guide\",\n        \"for\": \"all audiences\",\n        author: {\n                   firstname: \"David\",\n                   surname: \"Flanagan\"\n                }\n    };\n ",
+    "choices": [
+      "objects",
+      "property names",
+      "properties",
+      "property valuesView Answer"
+    ],
+    "answer": "b",
+    "explanation": "An item is contained within another object in the code sample above. The property names are firstnameand surname. The value of that property is an object in and of itself."
+  },
+  {
+    "question": "Which of the following is not an error in JavaScript?",
+    "code": null,
+    "choices": [
+      "Missing of Bracket",
+      "Division by zero",
+      "Syntax error",
+      "Missing of semicolonsView Answer"
+    ],
+    "answer": "b",
+    "explanation": "In JavaScript, division by zero does not result in an error; it just returns infinity or negativeinfinity. However, because zero divided by zero has no well-defined value, the result of this operation is theunusual not-a-number value, which is written as NaN."
+  },
+  {
+    "question": "Consider the following JavaScript statement containing regular expressions and check if the pattern matches.",
+    "code": "var text = \"testing: 1, 2, 3\"; \nvar pattern = /d+/g;",
+    "choices": [
+      "text.check(pattern)",
+      "pattern.test(text)",
+      "text==pattern",
+      "text.equals(pattern)View Answer"
+    ],
+    "answer": "b",
+    "explanation": "The pattern specified is applied to the text included in parenthesis. The test() method checks astring for a match. If a match is found, this method returns true; otherwise, it returns false."
+  },
+  {
+    "question": "What are the three important manipulations done in a for loop on a loop variable?",
+    "code": null,
+    "choices": [
+      "Updation, Incrementation, Initialization",
+      "Initialization,Testing, Updation",
+      "Testing, Updation, Testing",
+      "Initialization,Testing, Incrementation   "
+    ],
+    "answer": "b",
+    "explanation": "In a for loop, the initialization, the test, and the update are the three crucial manipulations of aloop variable. Firstly the loop initialiases the variable then test the condition and then after executing thestatement increments its value.\n    "
+  },
+  {
+    "question": "What will the following JavaScript code snippet work? If not, what will be the error?",
+    "code": "function tail(o) \n    {   for (; o.next; o = o.next) ;  return o;\n    }",
+    "choices": [
+      "No, this will throw an exception as only numerics can be used in a for loop",
+      "No, this will not iterate",
+      "Yes, this will work",
+      "No, this will result in a runtime error with the message “Cannot use Linked List”   "
+    ],
+    "answer": "c",
+    "explanation": "The above code uses a for loop to traverse a linked list data structure and return the last object inthe list. This will perfectly work.\n    "
+  },
+  {
+    "question": "One of the special features of an interpreter in reference with the for loop is that ___________",
+    "code": null,
+    "choices": [
+      "Before each iteration, the interpreter evaluates the variable expression and assigns the name of theproperty",
+      "The iterations can be infinite when an interpreter is used",
+      "The body of the loop is executed only once",
+      "the iteration is finite when an interpreter is used   "
+    ],
+    "answer": "a",
+    "explanation": "Interpreter translates the source code into machine code line by line, and stops when it encountersan error. Before each iteration, the interpreter evaluates the variable expression and assigns the name of theproperty (a string value) to it.\n    "
+  },
+  {
+    "question": "What will happen if the body of a for/in loop deletes a property that has not yet been enumerated?",
+    "code": null,
+    "choices": [
+      "The property will be stored in a cache",
+      "The loop will not run",
+      "That property will not be enumerated",
+      "The property will be enumerated   "
+    ],
+    "answer": "c",
+    "explanation": "If the body of a for/in loop deletes a property that has not yet been enumerated, that property willnot be enumerated. If the body of the loop defines new properties on the object, those properties will generallynot be enumerated.\n    "
+  },
+  {
+    "question": "What will be the step of the interpreter in a jump statement when an exception is thrown?",
+    "code": null,
+    "choices": [
+      "The interpreter stops its work",
+      "The interpreter throws another exception",
+      "The interpreter jumps to the nearest enclosing exception handler",
+      "The interpreter throws an error   "
+    ],
+    "answer": "c",
+    "explanation": "When an exception is thrown in a jump statement, the interpreter jumps to the nearest enclosingexception handler, which may be in the same function or up the call stack in an invoking function.\n    "
+  },
+  {
+    "question": "What will be the role of the continue keyword in the following JavaScript code snippet?",
+    "code": "while (a != 0)\n    { if (a == 1)      continue; else      a++;\n    }",
+    "choices": [
+      "The continue keyword restarts the loop",
+      "The continue keyword skips the next iteration",
+      "The continue keyword skips the rest of the statements in that iteration",
+      "The continue keyword breaks out of the loop   "
+    ],
+    "answer": "c",
+    "explanation": "Instead of exiting a loop like the break keyword, the continue keyword moves to thenext iteration from the place encountered. While the break statement breaks out of the loop.\n    "
+  },
+  {
+    "question": "What could be the task of the statement debugger in the following JavaScript code?",
+    "code": "function f(o) \n    {   if (o === undefined) debugger;\n    }",
+    "choices": [
+      "It does nothing but a simple breakpoint",
+      "It debugs the error in that statement and restarts the statement's execution",
+      "It is used as a keyword that debugs the entire program at once",
+      "It is used to find error in the statement   "
+    ],
+    "answer": "a",
+    "explanation": "The debugger statement normally does nothing. If, however, a debugger program isavailable and is running, then an implementation may (but is not required to) perform some kind of debuggingaction. In practice, this statement acts like a breakpoint: execution of JavaScript code stops and you can use thedebugger to print variable's values.\n    "
+  },
+  {
+    "question": "Among the keywords below, which one is not a statement?",
+    "code": null,
+    "choices": [
+      "debugger",
+      "with",
+      "if",
+      "use strict   "
+    ],
+    "answer": "",
+    "explanation": "use strict is a directive introduced in ECMAScript5. Directives are not statementsbecause it does not include any language keywords. Also, it can appear only at the start of a script or at thestart of a function body, before any real statement has appeared.\n    "
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "function range(int length)\n    {int a=5;for(int i=0;i<length;i++){  console.log(a);} \n    }\n    range(3);",
+    "choices": [
+      "5",
+      "555",
+      "3",
+      "error   "
+    ],
+    "answer": "b",
+    "explanation": "for loop first initializes the variable and later on checks for the condition expression and afterthat execute the line of statements. The value of iterator i increase until it reaches the value of length."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var a = 10;\n    do {  a += 1;  console.log(a);\n    } while (a < 5);",
+    "choices": [
+      "11121314",
+      "1112",
+      "12345",
+      "11   "
+    ],
+    "answer": "d",
+    "explanation": "dowhile loop first executes the statements and after that checks for the condition. Therefore dowhileloop will be executed and after that the condition will become false and the loop will terminate."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var a= 0;\n    var b = 0;\n    while (a < 3)\n    {  a++;  b += a;console.log(b);\n    }",
+    "choices": [
+      "135",
+      "123",
+      "013",
+      "01   "
+    ],
+    "answer": "a",
+    "explanation": "A while loops checks for the condition first before executing the looping statements. A while loopincrements the value at the end of the loop whereas for executes the statement at the starting of the loop."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "int size=5;\n    int a=5;\n    int size=4;\n    for(int j=size;j>=0;j--)\n    {console.log(a);a=a-2;\n    }",
+    "choices": [
+      "5555",
+      "5321",
+      "531-1",
+      "531   "
+    ],
+    "answer": "c",
+    "explanation": "The value of a will decrease by 2 at every iteration. The for loop will iterate four times till thevalue of j will decrease to 0."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "int a=0;\n    for(a;a<5;a++);\n    console.log(a);",
+    "choices": [
+      "0",
+      "error",
+      "4",
+      "5   "
+    ],
+    "answer": "d",
+    "explanation": "The value of a will increase until it will become equal to 5 after that the cursor will come out theloop. There are no statements for the for loop therefore only the value of a will increase. Hence the output willbe five."
+  },
+  {
+    "question": "JavaScript is a _______________ language.\n      ",
+    "code": null,
+    "choices": [
+      "Object-Oriented\n      ",
+      "High-level\n      ",
+      "Assembly-language\n      ",
+      "Object-Based    "
+    ],
+    "answer": "d",
+    "explanation": "JavaScript is not a full-blown OOP (Object-Oriented Programming) language, such as Java or PHP, but\n      it is an object-based language. The criteria for object orientation are the classic threesome of polymorphism,\n      encapsulation and inheritance and JavaScript doesn’t pass this."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var a=5 , b=1\n      var obj = { a : 10 }\n      with(obj) \n      {\n            alert(b)\n      }",
+    "choices": [
+      "10\n      ",
+      "Error\n      ",
+      "1\n      ",
+      "5    "
+    ],
+    "answer": "c",
+    "explanation": "Firstly the interpreter checks obj for property b. But it doesn’t find any property b so it takes the\n      value from outside the object within the code snippet. "
+  },
+  {
+    "question": "A conditional expression is also called a _______________\n      ",
+    "code": null,
+    "choices": [
+      "Alternative to if-else\n      ",
+      "Immediate if\n      ",
+      "If-then-else statement\n      ",
+      "Switch statement    "
+    ],
+    "answer": "b",
+    "explanation": "A conditional expression can evaluate to either True or False based on the evaluation of the\n      condition. If the condition is true then the value following the operator is taken that’s why it is called\n      immediate if. "
+  },
+  {
+    "question": "What is a block statement in JavaScript?\n      ",
+    "code": null,
+    "choices": [
+      "conditional block\n      ",
+      "block that contains a single statement\n      ",
+      "both conditional block and a single statement\n      ",
+      "block that combines multiple statements into a single compound statement    "
+    ],
+    "answer": "d",
+    "explanation": "A block statement groups zero or more statements. In languages other than JavaScript, it is known as\n      a compound statement. A statement block is a block that combines more than one statements into a single compound\n      statement for ease. "
+  },
+  {
+    "question": "When an empty statement is encountered, a JavaScript interpreter __________\n      ",
+    "code": null,
+    "choices": [
+      "Ignores the statement\n      ",
+      "Prompts to complete the statement\n      ",
+      "Throws an error\n      ",
+      "Shows a warning    "
+    ],
+    "answer": "a",
+    "explanation": "The JavaScript interpreter takes no action when it executes an empty statement. The empty statement\n      is occasionally useful when you want to create a loop that has an empty body. "
+  },
+  {
+    "question": "The “var” and “function” are __________\n      ",
+    "code": null,
+    "choices": [
+      "Keywords\n      ",
+      "Declaration statements\n      ",
+      "Data types\n      ",
+      "Prototypes    "
+    ],
+    "answer": "b",
+    "explanation": "The var and function are declaration statements—they declare or define variables and functions. These\n      statements define identifiers (variable and function names) that can be used elsewhere in your program and assign\n      values to those identifiers. "
+  },
+  {
+    "question": "In the following switch syntax, the expression is compared with the case labels using which of the following\n      operator(s)?",
+    "code": "switch(expression)\n      {\n          statements\n      }",
+    "choices": [
+      "==\n      ",
+      "equals\n      ",
+      "equal\n      ",
+      "===    "
+    ],
+    "answer": "d",
+    "explanation": "A strict comparison (e.g., ===) is only true if the operands are of the same type and the contents\n      match. When a switch executes, it computes the value of the expression and then looks for a case label whose\n      expression evaluates to the same value (where sameness is determined by the === operator). "
+  },
+  {
+    "question": "What happens in the following javaScript code snippet?",
+    "code": "var count = 0;\n      while (count < 10) \n      {\n           console.log(count);\n           count++;\n      }",
+    "choices": [
+      "The values of count are logged or stored in a particular location or storage\n      ",
+      "The value of count from 0 to 9 is displayed in the console\n      ",
+      "An error is displayed\n      ",
+      "An exception is thrown    "
+    ],
+    "answer": "b",
+    "explanation": "Console.log is a predefined function in JavaScript which takes the value as an argument of its\n      function.console.log prints this value in the argument in the console at the time of execution of the code. "
+  },
+  {
+    "question": " The enumeration order becomes implementation dependent and non-interoperable if ___________\n      ",
+    "code": null,
+    "choices": [
+      "If the object inherits enumerable properties\n      ",
+      "The object does not have the properties present in the integer array indices\n      ",
+      "The delete keyword is never used\n      ",
+      "Object.defineProperty() is not used    "
+    ],
+    "answer": "a",
+    "explanation": "In computer programming, an enumerated type (also called enumeration or enum) is a data type\n      consisting of a set of named values called elements, members or enumerators of the type. The enumerator names are\n      usually identifiers that behave as constants in the language. "
+  },
+  {
+    "question": " What will be the output of the following JavaScript code?",
+    "code": "Int a=1;\n      if(a>10)\n      {  \n          document.write(10);  \n      } \n      else\n      {\n          document.write(a);  \n      }",
+    "choices": [
+      "10\n      ",
+      "0\n      ",
+      "1\n      ",
+      "Undefined    "
+    ],
+    "answer": "c",
+    "explanation": "The if else statement is a part of the javascript conditioning statements. The line of code inside\n      the “if” statement is executed if the value passed to “if” is 1."
+  },
+  {
+    "question": " What will be the output of the following JavaScript code?",
+    "code": "var grade='B';  \n      var result;  \n      switch(grade)\n      {  \n          case 'A':\n          {  \n              result+=\"10\"; \n              break;\n          } \n          case 'B':\n          {  \n              result+=\" 9\";\n              break;\n          }  \n          case 'C':\n          {  \n              result+=\" 8\";\n              break;\n          }  \n          default:  \n          result+=\" 0\";  \n      }  \n      document.write(result);",
+    "choices": [
+      "10\n      ",
+      "9\n      ",
+      "8\n      ",
+      "0    "
+    ],
+    "answer": "b",
+    "explanation": "The above code contains a switch loop. It is used as an alternative to if else statement. One of the\n      given condition is satisfied according to the input of the switch case and the output is decided accordingly.\n    "
+  },
+  {
+    "question": " What will be the output of the following JavaScript code?",
+    "code": "var grade='A';  \n      var result;  \n      switch(grade)\n      {  \n          case 'A':  \n              result+=\"10\";  \n          case 'B':  \n              result+=\" 9\";  \n          case 'C':  \n              result+=\" 8\";  \n          default:  \n              result+=\" 0\";  \n      }  \n      document.write(result);",
+    "choices": [
+      "10\n      ",
+      "27\n      ",
+      "8\n      ",
+      "0    "
+    ],
+    "answer": "b",
+    "explanation": "The above code does not have a break statement after the cases in the switch loop. Therefore all of\n      the cases following “A” will get executed."
+  },
+  {
+    "question": " What will be the output of the following JavaScript code?",
+    "code": "int a=4;\n      int b=1;\n      int c=0;\n      If(a==b)\n          document.write(a);\n      else if(a==c)\n          document.write(a);\n      else\n          document.write(c);",
+    "choices": [
+      "4\n      ",
+      "1\n      ",
+      "Error\n      ",
+      "0    "
+    ],
+    "answer": "d",
+    "explanation": "For checking more than one condition the if else if loop is used. It is the extension of if else loop\n      which is also sometimes known as if else ladder."
+  },
+  {
+    "question": " What will be the output of the following JavaScript code?",
+    "code": "var grade='E';  \n      var result;  \n      switch(grade)\n      {  \n          case 'A':  \n              result+=\"10\";  \n          case 'B':  \n              result+=\" 9\";  \n          case 'C':  \n              result+=\" 8\";  \n          default:  \n              result+=\" 0\";  \n      }  \n      document.write(result);",
+    "choices": [
+      "10\n      ",
+      "0\n      ",
+      "18\n      ",
+      "17    "
+    ],
+    "answer": "b",
+    "explanation": "The switch case contains a default case along with the other cases. The default case gets executed\n      when no other case results into true."
+  },
+  {
+    "question": "The type that specifies what kind of event occurred is ____________",
+    "code": null,
+    "choices": [
+      "event type",
+      "even target",
+      "both event type and even target",
+      "interface   "
+    ],
+    "answer": "a",
+    "explanation": "The event type is a string that specifies what kind of event occurred. The type “mousemove”,for example, means that the user moved the mouse.\n    "
+  },
+  {
+    "question": "Which is the object on which the event occurred or with which the event is associated?",
+    "code": null,
+    "choices": [
+      "event type",
+      "event target",
+      "both event type and even target",
+      "interface   "
+    ],
+    "answer": "b",
+    "explanation": "The event target is the object on which the event occurred or with which the event isassociated. When we speak of an event, we must specify both the type and the target. The target property of theEvent interface is a reference to the object that dispatched the event.\n    "
+  },
+  {
+    "question": "In general, event handler is nothing but ____________",
+    "code": null,
+    "choices": [
+      "function",
+      "interface",
+      "event",
+      "handler   "
+    ],
+    "answer": "a",
+    "explanation": "An event handler is in general, a function that handles or responds to an event. For example onclick,onkeypress, onload etc are event handler functions.\n    "
+  },
+  {
+    "question": "When will the browser invoke the handler?",
+    "code": null,
+    "choices": [
+      "Program begins",
+      "Any event occurs",
+      "Specified event occurs",
+      "Webpage loads   "
+    ],
+    "answer": "c",
+    "explanation": "When an event of the specified type occurs on the specified target, the browser invokes the handler.For example onclick function is executed when mouse is clicked.\n    "
+  },
+  {
+    "question": "Which property specifies the property of the event?",
+    "code": null,
+    "choices": [
+      "Type",
+      "Target",
+      "Manner",
+      "Program   "
+    ],
+    "answer": "a",
+    "explanation": "All event objects have a type property that specifies the event type. Event type isa string that specifies what kind of event occurred.\n    "
+  },
+  {
+    "question": "The process by which the browser decides which objects to trigger event handlers on is ____________",
+    "code": null,
+    "choices": [
+      "Event Triggering",
+      "Event Listening",
+      "Event Handling",
+      "Event propagation   "
+    ],
+    "answer": "d",
+    "explanation": "Event propagation is the process by which the browser decides which objects to trigger eventhandlers. Event propagation is a way to describe the “stack” of events that are fired in a web browser.\n    "
+  },
+  {
+    "question": "Which form of event propagation handles the registered container elements?",
+    "code": null,
+    "choices": [
+      "Event Propagation",
+      "Event Registration",
+      "Event Capturing",
+      "Default Actions   "
+    ],
+    "answer": "c",
+    "explanation": "Event bubbling and capturing are two ways of event propagation in the HTML DOM API. With bubbling,the event is first captured and handled by the innermost element and then propagated to outer elements. Withcapturing, the event is first captured by the outermost element and propagated to the inner elements.\n    "
+  },
+  {
+    "question": "The events that are directly tied to a specific input device are ____________",
+    "code": null,
+    "choices": [
+      "Device-independent input events",
+      "Device-dependent input events",
+      "User interface events",
+      "State change events   "
+    ],
+    "answer": "b",
+    "explanation": "These are events that are directly tied to a specific input device, such as the mouse or keyboard)They include legacy event types such as “mousedown”, “mousemove”, “mouseup”, “keydown”, “keypress”, and “keyup”and also new touch specific events like “touchmove” and “gesturechange”.\n    "
+  },
+  {
+    "question": "The high-level events among the following events are ____________",
+    "code": null,
+    "choices": [
+      "User interface events",
+      "Device-independent events",
+      "Device-dependent events",
+      "Stage event change   "
+    ],
+    "answer": "a",
+    "explanation": "UI events are higher-level events, often on HTML form elements that define a user interface for a webapplication. They include the focus event (when a text input field gains keyboard focus), the change event whenthe user changes the value displayed by a form element, and the submit event when the user clicks a Submit buttonin a form.\n    "
+  },
+  {
+    "question": "The events that are not directly tied to a specific input device are _____________",
+    "code": null,
+    "choices": [
+      "User interface events",
+      "Device-independent events",
+      "Device-dependent events",
+      "Stage event change   "
+    ],
+    "answer": "b",
+    "explanation": "These are input events that are not directly tied to a specific input device. The click event, forexample, indicates that a link or button (or other document element) has been activated) This is often done via amouse click, but it could also be done by keyboard or (on touch-sensitive devices) by gesture.\n    "
+  },
+  {
+    "question": "The central object in a larger API is known as __________",
+    "code": null,
+    "choices": [
+      "Document Object Material",
+      "Document Object Model",
+      "Binary Object Model",
+      "Data object model   "
+    ],
+    "answer": "b",
+    "explanation": "Document Object Model (DOM) is a platform and language-neutral interface that allows programs andscripts to dynamically access and update the content, structure, and style of a document. It is the central objectin a larger API, known as the Document Object Model, or DOM, for representing and manipulating documentcontent.\n    "
+  },
+  {
+    "question": "The paragraph “p” is a part of __________",
+    "code": null,
+    "choices": [
+      "h1",
+      "body",
+      "html",
+      "both body and html   "
+    ],
+    "answer": "d",
+    "explanation": "The paragraph tag belongs to both html and body tag. It is used to write paragraph on htmlpages.\n    "
+  },
+  {
+    "question": "The node directly above a node is called __________",
+    "code": null,
+    "choices": [
+      "sibling",
+      "child",
+      "parent",
+      "ancestors   "
+    ],
+    "answer": "c",
+    "explanation": "The node directly above a node is the parent of that node. In HTML, the document itself is the parentnode of the HTML element, HEAD and BODY are child nodes of the HTML element.\n    "
+  },
+  {
+    "question": "The Text and Comment is part of __________",
+    "code": null,
+    "choices": [
+      "CharacterData",
+      "Document",
+      "Attr",
+      "Element   "
+    ],
+    "answer": "a",
+    "explanation": "The CharacterData abstract interface represents a Node object that containscharacters. This is an abstract interface, meaning there aren’t any object of type CharacterData. The Textand Comment is part of the CharacterData Element.\n    "
+  },
+  {
+    "question": "The nodes that represent HTML elements are the __________",
+    "code": null,
+    "choices": [
+      "Subclass nodes",
+      "HTML nodes",
+      "Window nodes",
+      "Element nodes   "
+    ],
+    "answer": "d",
+    "explanation": "The nodes that represent HTML elements are Element nodes. The various html elements include h1, p,div etc.\n    "
+  },
+  {
+    "question": "Which of the following is/are of Text nodes?",
+    "code": null,
+    "choices": [
+      "Text",
+      "Comment",
+      "Both Text and Comment",
+      "h1   "
+    ],
+    "answer": "c",
+    "explanation": "Both Text and Comment are basically strings of text, and thesenodes are much like the Text nodes that represent the displaying text of a document.\n    "
+  },
+  {
+    "question": "Which is not the way to query a document for an element or elements?",
+    "code": null,
+    "choices": [
+      "With a specified id attribute",
+      "Matching the specified CSS selector",
+      "With the specified tag name",
+      "without the specified CSS class or classes   "
+    ],
+    "answer": "d",
+    "explanation": "The DOM defines a number of ways to select elements; you can query a document for an element orelements:  with a specified id attribute;  with a specified name attribute;  with the specified tag name;  with the specified CSS class or classes; or  matching the specified CSS selector\n    "
+  },
+  {
+    "question": "Which of the following property refers to the root element of the document?",
+    "code": null,
+    "choices": [
+      "documentElement",
+      "elementdocument",
+      "rootdocument",
+      "rootelement   "
+    ],
+    "answer": "a",
+    "explanation": "The documentElement property of the Document class refers to the root element of thedocument. This is always an HTML element. The documentElement property returns the documentElement of thedocument, as an Element object.\n    "
+  },
+  {
+    "question": "The return type of getElementsByClassName() is __________",
+    "code": null,
+    "choices": [
+      "DOM",
+      "Document",
+      "Node",
+      "NodeList   "
+    ],
+    "answer": "d",
+    "explanation": "The getElementsByClassName() method returns a collection of all elements in thedocument with the specified class name, as a NodeList object. The other methods of returning nodelist objects aregetElementsByTagName(), getElementbyId() etc.\n    "
+  },
+  {
+    "question": "What is the observation made in the following JavaScript code?",
+    "code": "var count = [1,,3];",
+    "choices": [
+      "The omitted value takes “undefined”",
+      "This results in an error",
+      "This results in an exception",
+      "The omitted value takes an integer value   "
+    ],
+    "answer": "a",
+    "explanation": "Array is defined with a null value when no value is mentioned. If you omit a value from an arrayliteral, the omitted element is given an undefined value. "
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var a1 = [,,,]; \n    var a2 = new Array(3); \n    0 in a1 \n    0 in a2",
+    "choices": [
+      "true false",
+      "false true",
+      "true true",
+      "false true   "
+    ],
+    "answer": "a",
+    "explanation": "Array a1 is defined with null values. Therefore we can access the indexes 0, 1 and 2. But array a2 isonly defined not declared. Therefore we cannot access index 0.\n    "
+  },
+  {
+    "question": "The pop() method of the array does which of the following task?",
+    "code": null,
+    "choices": [
+      "decrements the total length by 1",
+      "increments the total length by 1",
+      "prints the first element but no effect on the length",
+      "updates the element   "
+    ],
+    "answer": "a",
+    "explanation": "pop() function pops out that is delete the last element from the array. Hence pop() method (it workswith push()) reduces the length of an array by 1.\n    "
+  },
+  {
+    "question": "What is the observation made in the following JavaScript code?",
+    "code": "if (!a[i]) continue;",
+    "choices": [
+      "Skips the defined elements",
+      "Skips the existent elements",
+      "Skips the null elements",
+      "Skips the defined & existent elements   "
+    ],
+    "answer": "c",
+    "explanation": "The if loop in the above code checks whether the value of a[i] exists or not. For undefined, nonexistent and null values the if loop returns true.\n    "
+  },
+  {
+    "question": "What will happen if reverse() and join() methods are used simultaneously?",
+    "code": null,
+    "choices": [
+      "Reverses and stores in the same array",
+      "Reverses and concatenates the elements of the array",
+      "Reverses",
+      "Stores the elements of an array in normal order   "
+    ],
+    "answer": "a",
+    "explanation": "The array.join() method is an inbuilt function in JavaScript which is used to join the elements of anarray into a string. The reverse() followed by a join() will reverse the respective array and will store thereversed array in the memory.\n    "
+  },
+  {
+    "question": "What will be the possible output of the following JavaScript code?",
+    "code": "var a = [1,2,3,4,5];\n    a.slice(0,3);",
+    "choices": [
+      "Returns [1,2,3] ",
+      "Returns [4,5] ",
+      "Returns [1,2,3,4] ",
+      "Returns [1,2,3,4,5]    "
+    ],
+    "answer": "a",
+    "explanation": ".slice() function is a predefined function in JavaScript used to keep the elements from startingpoint and ending point mentioned in the function argument. The elements after the ending point and before thestarting point are not shown.\n    "
+  },
+  {
+    "question": "What will be the shift() output of the following JavaScript code?",
+    "code": "var a = []; \n    a.unshift(1); \n    a.unshift(22);\n    a.shift(); \n    a.unshift(3,[4,5]); \n    a.shift(); \n    a.shift();\n    a.shift();",
+    "choices": [
+      "1",
+      "[4,5] ",
+      "[3,4,5] ",
+      "Exception is thrown   "
+    ],
+    "answer": "a",
+    "explanation": "The unshift() and shift() methods behave much like push() and pop(), except that they insert andremove elements from the beginning of an array rather than from the end. unshift() adds an element or elements tothe beginning of the array, shifts the existing array elements up to higher indexes to make room, and returns thenew length of the array. shift() removes and returns the first element of the array, shifting all subsequentelements down one place to occupy the newly vacant space at the start of the array.\n    "
+  },
+  {
+    "question": "The primary purpose of the array map() function is that it __________",
+    "code": null,
+    "choices": [
+      "maps the elements of another array into itself",
+      "passes each element of the array and returns the necessary mapped elements",
+      "passes each element of the array on which it is invoked to the function you specify, and returns an arraycontaining the values returned by that function",
+      "pass the elements of the array into another array   "
+    ],
+    "answer": "c",
+    "explanation": "map() is a predefined function in javascript used for mapping the array elements to be used for someother purpose. The map() method passes each element of the array on which it is invoked to the function youspecify, and returns an array containing the values returned by that function.\n    "
+  },
+  {
+    "question": "The reduce and reduceRight methods follow a common operation called __________",
+    "code": null,
+    "choices": [
+      "filter and fold",
+      "inject and fold",
+      "finger and fold",
+      "fold   "
+    ],
+    "answer": "b",
+    "explanation": "The reduceRight() method reduces the array to a single value. The reduceRight() method executes aprovided function for each value of the array (from right-to-left). The return value of the function is stored inan accumulator (result/total). Hence it does the operation of injecting and folding.\n    "
+  },
+  {
+    "question": "The method or operator used to identify the array is __________",
+    "code": null,
+    "choices": [
+      "isarrayType()",
+      "==",
+      "===",
+      "typeof   "
+    ],
+    "answer": "d",
+    "explanation": "The typeof operator is used to get the data type (returns a string) of its operand. The operand canbe either a literal or a data structure such as a variable, a function, or an object. The operator returns thedata type.\n    "
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var val1=[1,2,3];  \n    var val2=[6,7,8];  \n    var result=val1.concat(val2);  \n    document.writeln(result);",
+    "choices": [
+      "1, 2, 3",
+      "Error",
+      "1, 2, 3, 6, 7, 8",
+      "123   "
+    ],
+    "answer": "c",
+    "explanation": "concat is a predefined function in the array library in Javascript. The concat function is used tocombine the value of two arrays.i.e.1, 2, 3, 6, 7, 8 "
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var values=[1,2,3,4]  \n    var ans=values.slice(1);  \n    document.writeln(ans);",
+    "choices": [
+      "1, 2, 3, 4",
+      "2, 3, 4",
+      "1, 3, 4",
+      "error   "
+    ],
+    "answer": "d",
+    "explanation": "slice function is used to remove values from the array. The slice function accepts two arguments asthe starting and ending values for slicing elements. As in the above function, only one argument is passedtherefore it will result in an error."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "int sum=0;\n     \n    var arr = [10,15,20,30];  \n     \n    arr.forEach(function myFunction(element) \n    {      sum= sum+element;  \n    });  \n    document.writeln(sum);",
+    "choices": [
+      "70",
+      "75",
+      "10",
+      "error   "
+    ],
+    "answer": "b",
+    "explanation": "forEach is a predefined function in Javascript which used to traverse through the array. It works ina similar way to for loop and iterates through each value in array."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var values=[\"one\",\"two\",\"Three\"];  \n    var ans=values.shift();  \n    document.writeln(ans);",
+    "choices": [
+      "one",
+      "two",
+      "three",
+      "error   "
+    ],
+    "answer": "a",
+    "explanation": "shift is a predefined function in array library and works like a pop function. It pops the firstvalue of the array and returns its value. Therefore the answer will be one."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "var arr=[1,2,3];  \n    var rev=arr.reverse();  \n    document.writeln(rev);",
+    "choices": [
+      "1, 2, 3",
+      "3, 2, 1",
+      "3",
+      "1   "
+    ],
+    "answer": "b",
+    "explanation": "reverse function is a predefined function in array library in Javascript. The function is used toreverse the element of the array.i.e. 3, 2, 1."
+  },
+  {
+    "question": "The ‘$’ present in the RegExp object is called a ____________",
+    "code": null,
+    "choices": [
+      "character",
+      "matcher",
+      "metacharacter",
+      "metadata"
+    ],
+    "answer": "c",
+    "explanation": "The ‘S’ is a special metacharacter that matches the end of a string. It is used to defineor access elements in jquery. "
+  },
+  {
+    "question": "Consider the following JavaScript statement containing regular expressions and check if the pattern matches?\n    ",
+    "code": "var text = \"testing: 1, 2, 3\"; \nvar pattern = /d+/g;",
+    "choices": [
+      "text==pattern",
+      "text.equals(pattern)",
+      "text.test(pattern)",
+      "pattern.test(text)"
+    ],
+    "answer": "d",
+    "explanation": "The given pattern is applied to the text given in the parenthesis. The test() method tests for amatch in a string. This method returns true if it finds a match, otherwise it returns false.\n    "
+  },
+  {
+    "question": "The regular expression to match any one character not between the brackets is __________",
+    "code": null,
+    "choices": [
+      "[…] ",
+      "[^] ",
+      "[^…] ",
+      "[\\D] "
+    ],
+    "answer": "c",
+    "explanation": "RegExp defines a special set of character that is used to do manipulation on strings and othervariables. The [^…] character class is used to match or draw any one character not between the brackets."
+  },
+  {
+    "question": "What does /[^(]* regular expression indicate?",
+    "code": null,
+    "choices": [
+      "Match one or more characters that are not open parenthesis",
+      "Match zero or more characters that are open parenthesis",
+      "Match zero or more characters that are not open parenthesis",
+      "Match one or more characters that are open parenthesis"
+    ],
+    "answer": "c",
+    "explanation": "The [^…] character class is used to match or draw any one character not between the brackets. Oneshould always be careful while using * and ? as repetition characters as they may match zero instances of whateverprecedes them, they are allowed to match nothing.\n    "
+  },
+  {
+    "question": "What will be the result when non greedy repetition is used on the pattern /a+?b/?",
+    "code": null,
+    "choices": [
+      "Matches the letter b preceded by the fewest number of a’s possible",
+      "Matches the letter b preceded by any number of a",
+      "Matches letter a preceded by letter b, in the stack order",
+      "Matches letter a present in the string"
+    ],
+    "answer": "a",
+    "explanation": "Using non greedy repetition may not always produce the results you expect. /a+?b/ matches the letterb preceded by the fewest number of a’s possible.\n    "
+  },
+  {
+    "question": "What does the subexpression /java(script)?/ result in?",
+    "code": null,
+    "choices": [
+      "It matches “java” followed by the optional “script”",
+      "It matches “java” followed by any number of “script”",
+      "It matches “java” followed by a minimum of one “script”",
+      "It matches “java” followed by a single “script”"
+    ],
+    "answer": "a",
+    "explanation": "paranthesis () check for the optional presence of the argument in the string. subexpression/java(script)?/ matches “java” followed by the optional “script”."
+  },
+  {
+    "question": "What is the most essential purpose of parentheses in regular expressions?",
+    "code": null,
+    "choices": [
+      "Define pattern matching techniques",
+      "Define subpatterns within the complete pattern",
+      "Define portion of strings in the regular expression",
+      "matching the complete string"
+    ],
+    "answer": "b",
+    "explanation": "When a regular expression is successfully matched against a target string, it is possible to extractthe portions of the target string that matched any particular paranthesized subpattern. The essential purpose ofparantheses in regular expressions is to define subpatterns within the complete pattern.\n    "
+  },
+  {
+    "question": "The method that performs the search-and-replace operation to strings for pattern matching is _______",
+    "code": null,
+    "choices": [
+      "searchandreplace()",
+      "add()",
+      "edit()",
+      "replace()"
+    ],
+    "answer": "d",
+    "explanation": "The replace() method performs a search-and-replace operation. It takes a regular expression as itsfirst argument and a replacement string as its second argument.\n    "
+  },
+  {
+    "question": "What would be the result of the following statement in JavaScript using regular expression methods?",
+    "code": null,
+    "choices": [
+      "Returns [“123″”456″”789”] ",
+      "Returns [“123″,”456″,”789”] ",
+      "Returns [1,2,3,4,5,6,7,8,9] ",
+      "Throws an exception"
+    ],
+    "answer": "b",
+    "explanation": "The split() method can take regular expressions as its arguments. The split() method generally breaksthe string on which it is called into an array of substrings, using the argument as a separator.\n    "
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "console.log(Pattern.matches(\"[amn]\", \"abcd\"));",
+    "choices": [
+      "true",
+      "false",
+      "undefined",
+      "a"
+    ],
+    "answer": "b",
+    "explanation": "The pattern.matches method tests whether the regular expression matches the pattern. The above codewill result into false as string “abcd” is not among a, m, or n."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "console.log(Pattern.matches(\"[amn]?\", \"a\"));",
+    "choices": [
+      "true",
+      "false",
+      "undefined",
+      "bcd"
+    ],
+    "answer": "a",
+    "explanation": "The above code tests for single occurrence of the character in a particular string. The symbol ? isused along with the “[]” for testing single occurrence."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "    console.log(Pattern.matches(\"\\\\d\", \"1\"));",
+    "choices": [
+      "true",
+      "false",
+      "undefined",
+      "1"
+    ],
+    "answer": "a",
+    "explanation": "The above code tests for single occurrence of digit. //d returns true when there is any digitsoccurring one time."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": " Console.log(Pattern.matches(\"[adf]+\", \"a\"));",
+    "choices": [
+      "true",
+      "false",
+      "undefined",
+      "0"
+    ],
+    "answer": "a",
+    "explanation": "“+” sign in regex checks for more than one time occurrence of a particular character. It returns true      if a character from the set is present more than once."
+  },
+  {
+    "question": "What will be the output of the following JavaScript code?",
+    "code": "  console.log(Pattern.matches(\"[^abc]\", \"aemngq\"));",
+    "choices": [
+      "true",
+      "false",
+      "undefined",
+      "1"
+    ],
+    "answer": "b",
+    "explanation": "“^” is used as a negation operator. The above code will print false as “a” is present in the string      passed in the argument."
+  }
+]

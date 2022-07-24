@@ -1,0 +1,526 @@
+/* Global */
+
+:root {
+  --darkCyan: hsl(183, 100%, 15%);
+  --darkGrayishCyan: hsl(186, 14%, 43%);
+  --lightGrayishCyan: hsl(185, 41%, 84%);
+  --veryLightGrayishCyan: hsl(189, 41%, 97%);
+  --grayishCyan: hsl(184, 14%, 56%);
+
+  --edge-size: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--darkCyan);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--veryLightGrayishCyan);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+input:focus-visible,
+button:focus-visible {
+    box-shadow: 0 0 15px 10px var(--lightGrayishCyan);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: inherit;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  text-transform: capitalize;
+  font-family: "Rubik", sans-serif;
+}
+
+i,
+a,
+button {
+  cursor: pointer;
+}
+
+/* Components */
+
+.container {
+  margin: auto;
+  padding: 0 1em;
+
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 90%;
+    max-width: 1200px;
+  }
+}
+
+.btn-regular {
+  padding: .7rem 1rem;
+  border-radius: var(--edge-size);
+  background-color: var(--darkCyan);
+  color: white;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  transition-duration: .5s;
+  font-size: .7rem;
+}
+
+.btn-regular:hover {
+  background-color: var(--darkGrayishCyan);
+}
+
+@media (min-width: 1000px) {
+  .btn-regular {
+    font-size: 1rem;
+  }
+}
+
+button.active {
+  background-color: var(--darkGrayishCyan) !important;
+}
+
+/* Main */
+
+main {
+  background-color: var(--lightGrayishCyan);
+  min-height: 100vh;
+}
+
+@media (min-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+  }
+}
+
+/* Intro Overlay */
+
+main .intro-overlay {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--grayishCyan);
+  transition-duration: 1s;
+  z-index: 2000;
+}
+
+main .intro-overlay.fuck-off {
+  transform: translateY(-100%);
+}
+
+main :is(.intro-overlay, .start-over) .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: var(--darkCyan);
+  line-height: 1.8;
+}
+
+@media (min-width: 1000px) {
+  main .intro-overlay .container {
+    text-align: left;
+    align-items: flex-start;
+    max-width: 1100px;
+  }
+}
+
+main .intro-overlay .container h1 {
+  font-size: 1.2rem;
+  max-width: 400px;
+}
+
+main :is(.intro-overlay, .start-over) .container h2 {
+  font-size: 1rem;
+}
+
+main .intro-overlay .container h1::selection,
+main .intro-overlay .container h2::selection {
+  background-color: white;
+}
+
+main .intro-overlay .container .btns {
+  width: min-content;
+}
+
+@media (min-width: 1000px) {
+  main .intro-overlay .container h1 {
+    font-size: 2.2rem;
+    max-width: none;
+  }
+
+  main .intro-overlay .container h2 {
+    font-size: 1.8rem;
+  }
+
+}
+
+main :is(.intro-overlay, .start-over) .container .level-btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+main :is(.intro-overlay, .start-over) .container .start-btn {
+  text-transform: uppercase;
+  width: 100%;
+  cursor: not-allowed;
+}
+
+main :is(.intro-overlay, .start-over) .container p.level-info {
+  font-weight: 700;
+  height: calc(144px / 5)
+}
+
+/* Change Level Box And Final Result */
+
+.start-over, .final-result {
+  background-color: var(--grayishCyan);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  z-index: 3000;
+  height: max-content;
+  transform: translateY(-100%);
+  transition-duration: .5s;
+}
+
+.final-result {
+  text-align: center;
+  z-index: 2000;
+}
+
+.start-over.show-up,
+.final-result.show-up {
+  transform: translateY(0)
+}
+
+.start-over .container {
+  gap: 1em;
+}
+
+.start-over .container .close-panel-btn {
+  position: fixed;
+  top: .5rem;
+  right: .5rem;
+  background-color: transparent;
+  transform: scale(.8);
+}
+
+.final-result .message {
+  color: var(--darkCyan);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+/* Main => aside overlay */
+
+main .aside-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100vh;
+  background-color: rgb(127 156 159 / 60%);
+  transition-duration: .5s;
+}
+
+main .aside-overlay.show-up {
+  width: 100%;
+}
+
+/* Main => aside & aside buttons & progress bar */
+
+main .aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  min-width: 200px;
+  padding: 4rem 1rem 1rem;
+  background-color: white;
+  z-index: 1000;
+  transform: translateX(-100%);
+  transition-duration: .5s;
+}
+
+@media (min-width: 1000px) {
+  main .aside {
+    transform: translateX(0);
+    position: relative;
+    height: auto;
+    width: max-content;
+    min-height: 100vh;
+  }
+}
+
+main .aside.show-up {
+  transform: translateX(0)
+}
+
+main .aside .close-aside-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+}
+
+@media (min-width: 1000px) {
+  main .aside .close-aside-btn {
+    display: none;
+  }
+}
+
+main .aside h3 {
+  color: var(--darkCyan);
+  margin-bottom: 1.5rem;
+}
+
+main .aside .questions-index {
+  max-height: 70vh;
+  overflow-y: scroll;
+  padding-right: .5rem;
+}
+
+main .aside .questions-index button {
+  width: 100%;
+  margin-bottom: .5rem;
+  padding: .5rem;
+  background-color: var(--darkCyan);
+  color: white;
+  text-transform: capitalize;
+  text-align: left;
+  transition-duration: .5s;
+}
+
+main .aside .questions-index button:hover {
+  background-color: var(--darkGrayishCyan);
+}
+
+main > .container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+main .container > button.open-aside-btn {
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 20px;
+  background-color: transparent;
+}
+
+@media (min-width: 1000px) {
+  main .container > button.open-aside-btn {
+    display: none;
+  }
+
+  main > .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  main .container > button.open-aside-btn {
+    top: 4rem;
+  }
+}
+
+main .container > button.open-aside-btn span {
+  height: 2px;
+  width: 100%;
+  background-color: var(--darkCyan);
+  pointer-events: none;
+}
+
+main .container > .progress-bar {
+  display: grid;
+  height: 4px;
+  margin-left: 3rem;
+  margin-top: 6px;
+  background-color: var(--grayishCyan);;
+}
+
+@media (min-width: 1000px) {
+  main .container > .progress-bar {
+    margin-left: 0;
+  }
+}
+
+main .container > .progress-bar .percent-fraction {
+  height: 100%;
+  width: 0;
+  transition-duration: .5s;
+}
+
+/* Main => question box */
+
+main .questions {
+  transition-duration: .5s;
+}
+
+main .questions.fade {
+  opacity: 0;
+}
+
+main .question-box {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border-radius: var(--edge-size);
+  background-color: var(--veryLightGrayishCyan);
+  color: var(--darkGrayishCyan);
+  line-height: 1.4;
+  display: none;
+}
+
+main .question-box.active {
+  display: block;
+}
+
+main .question-box p.question-type {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+main .question-box .code {
+  border: none;
+  padding: .8em;
+  margin-top: .8em;
+  margin-bottom: .8em;
+  background-color: var(--lightGrayishCyan);
+  text-transform: none;
+}
+
+main .question-box .choices-content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+main .question-box .choices-btns,
+main .question-box .control-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  main .question-box .choices-btns {
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  main .question-box .control-btns {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: space-between;
+    gap: .5rem;
+  }
+
+  main .question-box .control-btns .show-explanation-btn {
+    grid-column: span 2;
+    grid-row: 2;
+  }
+}
+
+main .question-box .choices-btns {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+main .question-box .choices-btns .col:first-child button {
+  margin-right: .5rem;
+}
+
+main .question-box .confirm-btn {
+  transition-duration: 1s;
+}
+
+main .question-box p.explanation {
+  max-height: 0;
+  transition-duration: .5s;
+  overflow: hidden;
+  position: relative;
+}
+
+main .question-box p.explanation.show-up {
+  max-height: 2000px;
+  padding: 1em 1em 0 0;
+}
+
+main .question-box p.explanation .show-explanation-btn {
+  cursor: not-allowed;
+}
+
+main .question-box p.explanation .close-explanation-btn {
+  background-color: transparent;
+  position: absolute;
+  bottom: .5rem;
+  right: .5rem;
+  transform: rotate(-90deg);
+}
+
+main .question-box p.explanation .close-explanation-btn > * {
+  pointer-events: none;
+}
+
+main .timer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--darkCyan);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+main .timer-box span {
+  background-color: var(--veryLightGrayishCyan);
+  padding: .5rem .3rem;
+}
+
+main .timer-box span.over {
+  color: brown;
+}
