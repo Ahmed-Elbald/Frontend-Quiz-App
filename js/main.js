@@ -83,7 +83,7 @@ let quizData = {
 document.addEventListener("DOMContentLoaded", () => {
 
   // Fetching an array that has the questions as JSON objects
-  request = fetch("./data/questions.json").then(questions => questions.json());
+  request = fetch("./Data/questions.json").then(questions => questions.json());
 
   // Handling When the user choose the level
   updateLevel();
