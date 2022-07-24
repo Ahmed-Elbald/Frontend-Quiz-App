@@ -430,6 +430,7 @@ main .question-box .code {
   margin-bottom: .8em;
   background-color: var(--lightGrayishCyan);
   text-transform: none;
+  white-space: break-spaces;
 }
 
 main .question-box .choices-content {
