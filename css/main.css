@@ -433,6 +433,12 @@ main .question-box .code {
   white-space: break-spaces;
 }
 
+@media (max-width: 450px) {
+  main .question-box .code {
+    font-size: .8rem;
+  }
+}
+
 main .question-box .choices-content {
   margin-top: 1rem;
   display: flex;
