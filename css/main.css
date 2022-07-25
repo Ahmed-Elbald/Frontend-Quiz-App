@@ -1,7 +1,7 @@
 /* Global */
 
 :root {
-  --darkCyan: hsl(183, 100%, 15%);
+  --darkCyan: hsl(183deg 100% 8%);
   --darkGrayishCyan: hsl(186, 14%, 43%);
   --lightGrayishCyan: hsl(185, 41%, 84%);
   --veryLightGrayishCyan: hsl(189, 41%, 97%);
