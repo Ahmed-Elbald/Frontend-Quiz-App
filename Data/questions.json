@@ -875,7 +875,7 @@
       "JavaScript is a scripting language used to make the website interactive",
       "JavaScript is an assembly language used to make the website interactive",
       "JavaScript is a compiled language used to make the website interactive",
-      "None of the mentionedView Answer"
+      "None of the mentioned"
     ],
     "answer": "a",
     "explanation": "JavaScript is a scripting language used along with HTML and CSS to make the website interactivealong. It is used both on the client-side and server-side."
@@ -887,7 +887,7 @@
       "JavaScript is an Object-Based language",
       "JavaScript is Assembly-language",
       "JavaScript is an Object-Oriented language",
-      "JavaScript is a High-level languageView Answer"
+      "JavaScript is a High-level language"
     ],
     "answer": "a",
     "explanation": "Although JavaScript is not an OOP (Object-Oriented Programming) language like Java or PHP, it is anobject-oriented language. The standard threesome of polymorphism, encapsulation, and inheritance are the criteriafor object orientation, and JavaScript fails to meet them."
@@ -899,7 +899,7 @@
       "JavaScript is a function that is enclosed with references to its inner function scope",
       "JavaScript is a function that is enclosed with references to its lexical environment",
       "JavaScript is a function that is enclosed with the object to its inner function scope",
-      "None of the mentionedView Answer"
+      "None of the mentioned"
     ],
     "answer": "b",
     "explanation": "A closure is a function that is enclosed with references to its lexical environment. A closure allowsan inner function to access the scope of an outside function. Closures are formed every time a function is createdin JavaScript, during function creation time."
@@ -911,7 +911,7 @@
       "error",
       "Sanfoundry_ Javascriptmcq",
       "undefined",
-      "Sanfoundry_JavascriptmcqView Answer"
+      "Sanfoundry_Javascriptmcq"
     ],
     "answer": "d",
     "explanation": "The + operator in javascript acts as a concatenation operator when used with string. The new stringdoes not have any space between the two added strings."
@@ -923,7 +923,7 @@
       "10",
       "50",
       "5",
-      "ErrorView Answer"
+      "Error"
     ],
     "answer": "b",
     "explanation": "The *= operator in javascript is a shorthand expression for the multiplication of a particularnumber. It is a combination of two operators * and = ."
@@ -935,7 +935,7 @@
       "It is an ordered list of values",
       "It is an ordered list of objects",
       "It is an ordered list of string",
-      "It is an ordered list of functionsView Answer"
+      "It is an ordered list of functions"
     ],
     "answer": "a",
     "explanation": "An array in JavaScript is an ordered list of values, each value is referred to as an element, and itis identified by an index. An array can include values of many sorts and the length of an array dynamically sized."
@@ -947,7 +947,7 @@
       "false",
       "true",
       "compilation error",
-      "runtime errorView Answer"
+      "runtime error"
     ],
     "answer": "b",
     "explanation": "The == in JS convert different types of operands to the same type before making the comparison. Astrict comparison results in true value if the operands are of the same type and the contents match."
@@ -959,7 +959,7 @@
       "false",
       "true",
       "compilation error",
-      "runtime errorView Answer"
+      "runtime error"
     ],
     "answer": "a",
     "explanation": "A === operator in JS is only true if the operands are of the same type and the contents match. Twostrings are strictly equal when they have the same sequence of characters, same length, and same characters incorresponding positions."
@@ -971,7 +971,7 @@
       "Exception will be thrown",
       "Memory leak",
       "Error",
-      "Yes, perfectlyView Answer"
+      "Yes, perfectly"
     ],
     "answer": "d",
     "explanation": "For functions expressed as expressions, the function name is optional in Javascript. Sometimesfunction expressions are defined and used right away."
@@ -983,7 +983,7 @@
       "Null type",
       "Undefined type",
       "Number type",
-      "All of the mentionedView Answer"
+      "All of the mentioned"
     ],
     "answer": "d",
     "explanation": "JavaScript is a dynamic, loosely typed language. Variables in JavaScript aren’t tied to any specificvalue type, and each variable can be assigned and reassigned to values of all the types."
@@ -995,7 +995,7 @@
       "A URL that uses the special javascript:code",
       "A URL that uses the special javascript:protocol",
       "A URL that uses the special javascript:encoding",
-      "A URL that uses the special javascript:stackView Answer"
+      "A URL that uses the special javascript:stack"
     ],
     "answer": "b",
     "explanation": "The Client-side JavaScript code is embedded within HTML documents in four ways :  Inline, between a pair of “script” tags   From an external file specified by the src attribute of a “script” tag   In an HTML event handler attribute, such as onclick or onmouseover   In a URL that uses the special javascript: protocol. "
@@ -1007,7 +1007,7 @@
       "0",
       "1",
       "compiler error",
-      "runtime errorView Answer"
+      "runtime error"
     ],
     "answer": "b",
     "explanation": "!= is not equal to the operator in Javascript. It gives a value of 1 if the two values which arecompared are not equal and give 0 if the two values are equal."
@@ -1019,7 +1019,7 @@
       "Position",
       "Window",
       "Standard",
-      "LocationView Answer"
+      "Location"
     ],
     "answer": "b",
     "explanation": "All client-side JavaScript features and APIs are accessed through the Window object. It represents aweb browser window or frame, and the identifier window can be used to refer to it."
@@ -1031,7 +1031,7 @@
       "Compilation error",
       "Runtime error",
       "Yes",
-      "NoView Answer"
+      "No"
     ],
     "answer": "c",
     "explanation": "In javascript, “?” is called the ternary operator which is used for choosing one choice from thegiven two choices. It is used instead of if else statement and makes the code shorter."
@@ -1043,7 +1043,7 @@
       "short",
       "123.56",
       "tall",
-      "190View Answer"
+      "190"
     ],
     "answer": "a",
     "explanation": "The ternary operator in javascript is used as a comparison operator which works on three operands.The statement in the above code initializes type variable with the value short which is returned through thefunction."
@@ -1055,7 +1055,7 @@
       "Function/Method",
       "Preprocessor",
       "Triggering Event",
-      "RMIView Answer"
+      "RMI"
     ],
     "answer": "a",
     "explanation": "A function call to the element on which JavaScript is to be run can be used to invoke JavaScriptcode. Other techniques include onclick, onload, and onsubmit, among others."
@@ -1067,7 +1067,7 @@
       "-7.25",
       "7.25",
       "-7",
-      "7View Answer"
+      "7"
     ],
     "answer": "b",
     "explanation": "The javacript abs() method returns the absolute value of a number. The method is found in the mathlibrary of Javascript."
@@ -1079,7 +1079,7 @@
       "1",
       "10",
       "5",
-      "ErrorView Answer"
+      "Error"
     ],
     "answer": "a",
     "explanation": "Firstly the interpreter checks obj for property b. But it doesn’t find any property b so it takes thevalue from outside the object within the JavaScript code snippet. "
@@ -1091,7 +1091,7 @@
       "will work perfectly well on a Windows Machine",
       "will be displayed as JavaScript text on the browser",
       "will throw errors and exceptions",
-      "must be restricted to a Unix Machine onlyView Answer"
+      "must be restricted to a Unix Machine only"
     ],
     "answer": "a",
     "explanation": "Because JS can run on a variety of operating systems, an application written for UNIX will run justas well on Windows. "
@@ -1103,7 +1103,7 @@
       "Prints “Empty Array”",
       "Prints 0 to the length of the array",
       "Prints the numbers in the array in order",
-      "Prints the numbers in the array in the reverse orderView Answer"
+      "Prints the numbers in the array in the reverse order"
     ],
     "answer": "c",
     "explanation": "The do/while statement creates a loop that executes a block of javascript code once, before checkingif the condition is true, then it will repeat the loop as long as the condition is true. Hence the iteratortraverses through the array and print them in normal order."
@@ -1115,7 +1115,7 @@
       "An exception is thrown",
       "The values of js are logged or stored in a particular location or storage",
       "The value of js from 0 to 9 is displayed in the console",
-      "An error is displayedView Answer"
+      "An error is displayed"
     ],
     "answer": "c",
     "explanation": "In JavaScript, Console.log is a predefined function that accepts the value as an argument. At thetime of code execution, console.log prints this value in the argument to the console. "
@@ -1127,7 +1127,7 @@
       "2",
       "5",
       "555",
-      "errorView Answer"
+      "error"
     ],
     "answer": "c",
     "explanation": "for loop in Javascript first initializes the variable and later on checks for the conditionexpression and after that execute the line of statements. The value of iterator i increase until it reaches thevalue of length."
@@ -1139,7 +1139,7 @@
       "Sequential",
       "Segmental",
       "Lexical",
-      "LiteralView Answer"
+      "Literal"
     ],
     "answer": "c",
     "explanation": "JavaScript, like most current programming languages, employs lexical scoping. This means thatfunctions are performed with the variable scope in effect when they were defined, rather than the variable scopein effect when they are invoked."
@@ -1151,7 +1151,7 @@
       "Functions are considered as fields",
       "Functions are values, and there is no hard distinction between methods and fields",
       "Variables are specific",
-      "There is no differenceView Answer"
+      "There is no difference"
     ],
     "answer": "b",
     "explanation": "Java is an object-oriented programming language, while JS is an object-oriented scripting language.The main difference between JavaScript and Java is that functions are values, while methods and fields are notclearly defined."
@@ -1163,7 +1163,7 @@
       "1, 2, 3, 6, 7, 8",
       "123",
       "1, 2, 3",
-      "ErrorView Answer"
+      "Error"
     ],
     "answer": "a",
     "explanation": "concat is a predefined function in the array library in Javascript. The concat function is used tocombine the value of two arrays.i.e.1, 2, 3, 6, 7, 8 "
@@ -1175,7 +1175,7 @@
       "Both Compiling & Interpreting the JavaScript",
       "Parsing the javascript",
       "Interpreting the JavaScript",
-      "Compiling the JavaScriptView Answer"
+      "Compiling the JavaScript"
     ],
     "answer": "c",
     "explanation": "For the most part, the JS Engine is used to interpret JavaScript. It’s used to parse javascript andrun it on a web page."
@@ -1187,7 +1187,7 @@
       "Returns the value in scope",
       "Returns value null",
       "Shows an error message",
-      "Returns exceptionView Answer"
+      "Returns exception"
     ],
     "answer": "a",
     "explanation": "The Lexical Environment is an object that is connected with every executing function, code block, andthe script as a whole in JavaScript. The value in scope is returned by the code snippet above."
@@ -1199,7 +1199,7 @@
       "4",
       "5",
       "0",
-      "errorView Answer"
+      "error"
     ],
     "answer": "b",
     "explanation": "The value of a will increase until it equals 5, at which point the cursor will exit the loop. Becausethere are no statements in the for loop, the value of a will only increase. As a result, the result will be five."
@@ -1211,7 +1211,7 @@
       "JavaScript uses equalto()",
       "JavaScript uses equals() and notequals() instead",
       "JavaScript uses bitwise checking",
-      "JavaScript uses === and !== insteadView Answer"
+      "JavaScript uses === and !== instead"
     ],
     "answer": "d",
     "explanation": "The comma operator, bitwise operators, and the ++ and — operators are not included in the subset. Italso forbids the usage of == and!= due to the type conversion they do, instead requiring the use of ===and!==."
@@ -1223,7 +1223,7 @@
       "Value not found Error",
       "Reference Error",
       "Null",
-      "ZeroView Answer"
+      "Zero"
     ],
     "answer": "b",
     "explanation": "Console.log() is a javascript predefined function for printing data or messages to the console. Areference error will occur if the console.log argument is not defined."
@@ -1235,7 +1235,7 @@
       "Not valid",
       "Prototype of a function",
       "Function javascript",
-      "A custom constructorView Answer"
+      "A custom constructor"
     ],
     "answer": "d",
     "explanation": "All object instances have a constructor property that points to the constructor function that createdthem. A custom constructor is a constructor which requires no arguments and is created automatically by thecompiler at the time of object creation if not created by the user."
@@ -1247,7 +1247,7 @@
       "Allows JavaScript code to alter the behaviour of windows",
       "Adds innerHTML page to the code",
       "Change the server location",
-      "Performs handling of exceptions and occurrencesView Answer"
+      "Performs handling of exceptions and occurrences"
     ],
     "answer": "a",
     "explanation": "JS code can change the behavior of windows, documents, and the elements that make up thosedocuments via event handlers."
@@ -1259,7 +1259,7 @@
       "JavaScript .NET",
       "JavaScript",
       "Cocoa JS",
-      "jQueryView Answer"
+      "jQuery"
     ],
     "answer": "b",
     "explanation": "jQuery, which is used in web development, is one of the most popular frameworks. JavaScript is ascripting language, not a framework, in this case."
@@ -1271,7 +1271,7 @@
       "onclick",
       "onerror",
       "onmessage",
-      "onexceptionView Answer"
+      "onexception"
     ],
     "answer": "b",
     "explanation": "The Window object’s onerror property acts as an event handler, and it is triggeredwhen JavaScript problems occur. However, because it is called with various arguments, it isn’t a genuine eventhandler."
@@ -1283,7 +1283,7 @@
       "runtime error",
       "logical error",
       "true",
-      "falseView Answer"
+      "false"
     ],
     "answer": "c",
     "explanation": "The .tostring() function can be used to convert a non-string (integer) to a string. Only if theoperands are of the same type and the contents match is a rigorous comparison possible. As a result, the followingcode line will produce true output."
@@ -1295,7 +1295,7 @@
       "objects",
       "property names",
       "properties",
-      "property valuesView Answer"
+      "property values"
     ],
     "answer": "b",
     "explanation": "An item is contained within another object in the code sample above. The property names are firstnameand surname. The value of that property is an object in and of itself."
@@ -1307,7 +1307,7 @@
       "Missing of Bracket",
       "Division by zero",
       "Syntax error",
-      "Missing of semicolonsView Answer"
+      "Missing of semicolons"
     ],
     "answer": "b",
     "explanation": "In JavaScript, division by zero does not result in an error; it just returns infinity or negativeinfinity. However, because zero divided by zero has no well-defined value, the result of this operation is theunusual not-a-number value, which is written as NaN."
@@ -1319,7 +1319,7 @@
       "text.check(pattern)",
       "pattern.test(text)",
       "text==pattern",
-      "text.equals(pattern)View Answer"
+      "text.equals(pattern)"
     ],
     "answer": "b",
     "explanation": "The pattern specified is applied to the text included in parenthesis. The test() method checks astring for a match. If a match is found, this method returns true; otherwise, it returns false."
@@ -1415,9 +1415,9 @@
       "debugger",
       "with",
       "if",
-      "use strict   "
+      "use strict"
     ],
-    "answer": "",
+    "answer": "a",
     "explanation": "use strict is a directive introduced in ECMAScript5. Directives are not statementsbecause it does not include any language keywords. Also, it can appear only at the start of a script or at thestart of a function body, before any real statement has appeared.\n    "
   },
   {

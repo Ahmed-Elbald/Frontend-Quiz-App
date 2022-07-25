@@ -38,7 +38,15 @@ button {
 
 input:focus-visible,
 button:focus-visible {
-    box-shadow: 0 0 15px 10px var(--lightGrayishCyan);
+  box-shadow: 0 0 15px 10px var(--lightGrayishCyan);
+}
+
+button {
+  background-color: transparent;
+}
+
+button > * {
+  pointer-events: none;
 }
 
 ul,
@@ -104,8 +112,15 @@ button {
   }
 }
 
-button.active {
+.btn-regular.active {
   background-color: var(--darkGrayishCyan) !important;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  transform: scale(.8);
 }
 
 /* Main */
@@ -236,14 +251,6 @@ main :is(.intro-overlay, .start-over) .container p.level-info {
   gap: 1em;
 }
 
-.start-over .container .close-panel-btn {
-  position: fixed;
-  top: .5rem;
-  right: .5rem;
-  background-color: transparent;
-  transform: scale(.8);
-}
-
 .final-result .message {
   color: var(--darkCyan);
   margin-bottom: 1rem;
@@ -293,13 +300,6 @@ main .aside {
 
 main .aside.show-up {
   transform: translateX(0)
-}
-
-main .aside .close-aside-btn {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  background-color: transparent;
 }
 
 @media (min-width: 1000px) {
@@ -506,15 +506,9 @@ main .question-box p.explanation .show-explanation-btn {
 }
 
 main .question-box p.explanation .close-explanation-btn {
-  background-color: transparent;
-  position: absolute;
-  bottom: .5rem;
-  right: .5rem;
-  transform: rotate(-90deg);
-}
-
-main .question-box p.explanation .close-explanation-btn > * {
-  pointer-events: none;
+  bottom: 0;
+  top: auto;
+  transform: rotate(-90deg) scale(.8);
 }
 
 main .timer-box {

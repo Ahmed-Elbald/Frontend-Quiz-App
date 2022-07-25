@@ -29,6 +29,7 @@ const secondsLeftSpan = timeLeftBox.querySelector("span.seconds");
 const questionsContainer = document.querySelector(".questions");
 
 const finalResult = document.querySelector(".final-result");
+const closeFinalResultBtn = finalResult.querySelector(".close-panel-btn");
 
 const startOverBtns = document.querySelectorAll("button.start-over-btn");
 
@@ -50,15 +51,16 @@ let
 
   currentPrgressBarFraction, // A global variable that holds a protion of the progress bar
 
-  timerHandler; // A handler for the timer
+  timerHandler, // A handler for the timer
 
+  startBtnEnabled = false;
 
 // Initialzing global objects
 
 const levelsInfo = {
   easy: {
     questionsNumber: 10,
-    levelTime: 8,
+    levelTime: 2,
   },
   medium: {
     questionsNumber: 20,
@@ -88,9 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // Handling When the user choose the level
   updateLevel();
 
-  // If the user clicks one of the "Start" button, start the quiz
-  request.then(questions => startQuiz(questions));
-
   // Adding the eventListeners for general buttons => aside buttons, startOver buttons etc..
   addClickEvent();
 
@@ -119,6 +118,10 @@ function addClickEvent() {
 
   closePanelBtn.addEventListener("click", () => startOverPanel.classList.remove("show-up"));
 
+  // Final Result
+
+  closeFinalResultBtn.addEventListener("click", () => finalResult.classList.remove("show-up"));
+
 }
 
 // Function => Reset
@@ -146,9 +149,6 @@ function reset() {
   // Change the color of the timer to basic color
   for (let child of timeLeftBox.children) child.classList.remove("over");
 
-  // // Resetting the timer
-  // handleTimer(true);
-
 }
 
 // Function => Update the level
@@ -158,7 +158,11 @@ function updateLevel() {
   levelBtns.forEach(btn => {
 
     btn.addEventListener("click", (event) => {
-
+      // If the user clicks one of the "Start" button, start the quiz
+      if (!startBtnEnabled) {
+        startBtnEnabled = true;
+        request.then(questions => startQuiz(questions));
+      }
       let currentLevel = event.target.dataset.level; // Get the level the user has chosen
       tempLevelInfo = levelsInfo[currentLevel]; // Update the temporary level info (used just to tell the user about the level details)
       setLevelData(tempLevelInfo) // Show the user the level details
@@ -205,6 +209,7 @@ function startQuiz(questions) {
 
         introOverlay.classList.add("fuck-off");
         startOverPanel.classList.remove("show-up");
+        finalResult.classList.remove("show-up");
         btn.style.pointerEvents = "all"; // Make the button clickable again
 
       }, 1500)
@@ -522,6 +527,8 @@ function handleTimer() {
       if (seconds == 0) { // If seconds is equal to 0:
         if (minutes == 0) { // If minutes is equal to 0 => it's over
 
+          minutesLeftSpan.textContent == "00";
+
           checkQuizResult(); // Check the quiz result
 
           // Change the color of the timer
@@ -537,9 +544,9 @@ function handleTimer() {
         // If seconds isn't equal to 0:
 
         if (minutes < 10) { // If minutes is less than 10, add 0 at the beginning
-          minutesLeftSpan.textContent = "0" + minutes--;
+          minutesLeftSpan.textContent = "0" + --minutes;
         } else {
-          minutesLeftSpan.textContent = minutes--;
+          minutesLeftSpan.textContent = --minutes;
         }
 
         // Set the seconds to 60 again
@@ -579,10 +586,6 @@ function checkQuizResult() {
   finalResult.querySelector(".message").textContent = message;
   finalResult.classList.add("show-up");
 
-  // Hide the message after 5 seconds
-  setTimeout(() => {
-    finalResult.classList.remove("show-up");
-  }, 5000)
 }
 
 // Function => addActive
