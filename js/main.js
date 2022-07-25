@@ -60,7 +60,7 @@ let
 const levelsInfo = {
   easy: {
     questionsNumber: 10,
-    levelTime: 2,
+    levelTime: 8,
   },
   medium: {
     questionsNumber: 20,
