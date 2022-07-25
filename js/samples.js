@@ -38,7 +38,7 @@ const questionMarkup = `
             <button class="next-btn btn-regular" aria-label="Next Questoin" data-type = "forwards">next</button>
           </div>
           <p class="explanation">
-            <button class="close-explanation-btn"><svg width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="m2 1 8 8-8 8" stroke="hsl(183, 100%, 15%)" stroke-width="2" fill="none" fill-rule="evenodd"/></svg></button>
+            <button class="close-explanation-btn" aria-label="Close The Explanation Box"><svg width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="m2 1 8 8-8 8" stroke="hsl(183, 100%, 15%)" stroke-width="2" fill="none" fill-rule="evenodd"/></svg></button>
             <span class"explanation-content"></span>
           </p>
 `;

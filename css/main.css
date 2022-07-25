@@ -210,7 +210,7 @@ main :is(.intro-overlay, .start-over) .container p.level-info {
 
 .start-over, .final-result {
   background-color: var(--grayishCyan);
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -430,12 +430,15 @@ main .question-box .code {
   margin-bottom: .8em;
   background-color: var(--lightGrayishCyan);
   text-transform: none;
+  -ms-white-space: break-spaces;
   white-space: break-spaces;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 @media (max-width: 450px) {
   main .question-box .code {
-    font-size: .8rem;
+    font-size: .7rem;
   }
 }
 
