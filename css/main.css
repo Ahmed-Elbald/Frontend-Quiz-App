@@ -430,10 +430,11 @@ main .question-box .code {
   margin-bottom: .8em;
   background-color: var(--lightGrayishCyan);
   text-transform: none;
-  -ms-white-space: break-spaces;
-  white-space: break-spaces;
-  -ms-word-wrap: break-word;
-  word-wrap: break-word;
+  overflow-x: scroll;
+}
+
+main .question-box .code::-webkit-scrollbar {
+  height: .3rem;
 }
 
 @media (max-width: 450px) {

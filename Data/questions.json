@@ -2153,18 +2153,6 @@
     "explanation": "The replace() method performs a search-and-replace operation. It takes a regular expression as itsfirst argument and a replacement string as its second argument.\n    "
   },
   {
-    "question": "What would be the result of the following statement in JavaScript using regular expression methods?",
-    "code": null,
-    "choices": [
-      "Returns [“123″”456″”789”] ",
-      "Returns [“123″,”456″,”789”] ",
-      "Returns [1,2,3,4,5,6,7,8,9] ",
-      "Throws an exception"
-    ],
-    "answer": "b",
-    "explanation": "The split() method can take regular expressions as its arguments. The split() method generally breaksthe string on which it is called into an array of substrings, using the argument as a separator.\n    "
-  },
-  {
     "question": "What will be the output of the following JavaScript code?",
     "code": "console.log(Pattern.matches(\"[amn]\", \"abcd\"));",
     "choices": [
